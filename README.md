@@ -5,6 +5,7 @@
 
 <br></br>
 ## Projektbeschreibung
+Unser Projektziel ist es einen Knowledge GRaphen mithilfe der Graphdatenbank NEO4j zu erstellen. Die Daten hierzu sollen durch die API von dem Opensource Katalog OpenAlex extrahiert werden, um die Zitationsdaten(?) von Artikeln in einem Web Interface darzustellen.  
 
 <br></br>
 
