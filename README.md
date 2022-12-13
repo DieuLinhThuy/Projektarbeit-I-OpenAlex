@@ -5,8 +5,13 @@
 
 <br></br>
 ## Projektbeschreibung
+
 <br></br>
 
+### Projektplanung
+https://thkoelnde-my.sharepoint.com/:x:/g/personal/memla_salarzei_smail_th-koeln_de/ES1BHrW9n61Gg_Oeo1l6ZJIBQ9dX7qpLtS2gWV-4FPxCUQ?rtime=J7RlVkLd2kg
+
+<br></br>
 ### Ressourcen
 Die API ist der primäre Weg, um OpenAlex-Daten zu erhalten. Es ist auch viel einfacher, als Download snapshot herunterzuladen.
 https://api.openalex.org/works?filter=institutions.ror:https://ror.org
