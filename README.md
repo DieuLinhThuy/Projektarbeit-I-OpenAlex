@@ -2,10 +2,19 @@
 <br></br>
 
 ## Einleitung
+Was ist OpenAlex?
+* ein offenes System zur Abbildung von Forschungsprozessen anhand der Entitäten
+* basierend auf "Fünf-Einheiten-Modelle" Autoren, Werke, Orte (Zeitschriften, Repositorien), Institutionen und Konzepte, die miteinander verbunden sind
+* Fokus auf Wissenschaftsdaten
+* eigene API-Endpunkte 
+
+Was ist Neo4j?
+* eine eingebettete, plattenbasierte, transaktionale Datenbank-Engine, die Daten in Graphen statt in Tabellen speichert
 
 <br></br>
 ## Projektbeschreibung
-Unser Projektziel ist es einen Knowledge GRaphen mithilfe der Graphdatenbank NEO4j zu erstellen. Die Daten hierzu sollen durch die API von dem Opensource Katalog OpenAlex extrahiert werden, um die Zitationsdaten(?) von Artikeln in einem Web Interface darzustellen.  
+In unserem Projekt sollen OpenAlex und Neo4j zur visuellen Darstellungen der Daten miteinander verbunden werden.
+Unser Projektziel ist es einen Knowledge Graphen mithilfe der Graphdatenbank NEO4j zu erstellen. Die Daten hierzu sollen durch die API von dem Opensource Wissenschaftskatalog OpenAlex extrahiert werden, um die Zitationsdaten(?) von Artikeln in einem Web Interface darzustellen.
 
 <br></br>
 
@@ -15,11 +24,12 @@ https://thkoelnde-my.sharepoint.com/:x:/g/personal/memla_salarzei_smail_th-koeln
 <br></br>
 ### Ressourcen
 Die API ist der primäre Weg, um OpenAlex-Daten zu erhalten. Es ist auch viel einfacher, als Download snapshot herunterzuladen.
-https://api.openalex.org/works?filter=institutions.ror:https://ror.org
+https://api.openalex.org/works?filter=cites:W2741809807 <br></br>
+https://api.openalex.org/works?filter=cited_by:W2766808518
 
 Verwenden Sie kein Cursor-Paging, um einen sehr großen oder sogar den gesamten Datensatz herunterzuladen Es ist schlecht für Sie, weil es viele Tage dauern wird, eine lange Liste wie '/works' oder '/authors' durchzublättern. Es ist schlecht für die OpenAlex-API (und andere Benutzer!), weil es ihre Server massiv belastet. Laden Sie stattdessen alles auf einmal herunter, indem Sie den Daten-Snapshot verwenden. Es ist kostenlos, einfach, schnell und Sie erhalten alle Ergebnisse im gleichen Format wie von der API.
 Auf Ihren Computer herunterladen
-https://docs.openalex.org/download-snapshot
+https://docs.openalex.org/download-snapshot <br></br>
 https://docs.openalex.org/download-snapshot/download-to-your-machine
 
 
