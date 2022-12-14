@@ -49,6 +49,8 @@ https://docs.openalex.org/download-snapshot/download-to-your-machine
 
 ## Arbeitsweise
 <br></br>
+
+ 
 **Vorbereitungsphase**
 
 Die Projektinformationen werden gesammelt und erörtert, das Projektziel wird definiert und erste Vereinbarungen hinsichtlich der Projektorganisation werden getroffen. Die Vorbereitungsphase endet mit einer Projektidee und mit den verfassten SMART'en Ziele.
@@ -67,4 +69,6 @@ Das Projekt wird unter Berücksichtigung von Terminen, Ressourcen und Kosten umg
 
 Das Projekt wird abgeschlossen, die Arbeitsergebnisse werden abgenommen und die gesammelten Erfahrungen gesichert (Lessons Learned). Das Projekt wird vorgestellt und in einem Bericht zusammengefasst. 
 
+
+Wir arbeiten klassisch, wollen jedoch zum agilen Projektmanagement wechseln soald wir unsere Projektziel erweitern.
 
