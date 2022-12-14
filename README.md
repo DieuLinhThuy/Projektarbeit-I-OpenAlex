@@ -1,4 +1,11 @@
 # Projektarbeit-I-OpenAlex
+Anmerkungen zur Vorstellung am 14.12.2022
+* kleines Subset statt 300GB
+* Zielgruppe definieren
+* Planungsweise genauer beschreiben 
+  * nächsten Schritte einplanen 
+  * Deadlines genauer beschreiben (bsp: bis zu diesem Datum eine CSV)
+  * explorierend --> Was brauchen wir?
 <br></br>
 
 ## Einleitung
@@ -23,12 +30,12 @@ https://thkoelnde-my.sharepoint.com/:x:/g/personal/memla_salarzei_smail_th-koeln
 
 <br></br>
 ### Ressourcen
-Die API ist der primäre Weg, um OpenAlex-Daten zu erhalten. Es ist auch viel einfacher, als Download snapshot herunterzuladen.
+"Die API ist der primäre Weg, um OpenAlex-Daten zu erhalten. Es ist auch viel einfacher, als Download snapshot herunterzuladen."
 https://api.openalex.org/works?filter=cites:W2741809807 <br></br>
 https://api.openalex.org/works?filter=cited_by:W2766808518
 
-Verwenden Sie kein Cursor-Paging, um einen sehr großen oder sogar den gesamten Datensatz herunterzuladen Es ist schlecht für Sie, weil es viele Tage dauern wird, eine lange Liste wie '/works' oder '/authors' durchzublättern. Es ist schlecht für die OpenAlex-API (und andere Benutzer!), weil es ihre Server massiv belastet. Laden Sie stattdessen alles auf einmal herunter, indem Sie den Daten-Snapshot verwenden. Es ist kostenlos, einfach, schnell und Sie erhalten alle Ergebnisse im gleichen Format wie von der API.
-Auf Ihren Computer herunterladen
+"Verwenden Sie kein Cursor-Paging, um einen sehr großen oder sogar den gesamten Datensatz herunterzuladen Es ist schlecht für Sie, weil es viele Tage dauern wird, eine lange Liste wie '/works' oder '/authors' durchzublättern. Es ist schlecht für die OpenAlex-API (und andere Benutzer!), weil es ihre Server massiv belastet. Laden Sie stattdessen alles auf einmal herunter, indem Sie den Daten-Snapshot verwenden. Es ist kostenlos, einfach, schnell und Sie erhalten alle Ergebnisse im gleichen Format wie von der API.
+Auf Ihren Computer herunterladen"
 https://docs.openalex.org/download-snapshot <br></br>
 https://docs.openalex.org/download-snapshot/download-to-your-machine
 
