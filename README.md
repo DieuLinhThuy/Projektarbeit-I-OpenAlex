@@ -24,20 +24,20 @@ In unserem Projekt sollen OpenAlex und Neo4j zur visuellen Darstellungen der Dat
 Unser Projektziel ist es einen Knowledge Graphen mithilfe der Graphdatenbank NEO4j zu erstellen. Die Daten hierzu sollen durch die API von dem Opensource Wissenschaftskatalog OpenAlex extrahiert werden, um die Zitationsdaten(?) von Artikeln in einem Web Interface darzustellen.Ein ideales Endergebnis wäre ein Minimal Viable Products, bei dem der Knowlegde Graph im Web Interface abgebildet ist.
 
 <br></br>
+### SMARTE Ziele
 
 ### Projektplanung
 https://thkoelnde-my.sharepoint.com/:x:/g/personal/memla_salarzei_smail_th-koeln_de/ES1BHrW9n61Gg_Oeo1l6ZJIBQ9dX7qpLtS2gWV-4FPxCUQ?rtime=J7RlVkLd2kg
 
 <br></br>
 ### Ressourcen
-"Die API ist der primäre Weg, um OpenAlex-Daten zu erhalten. Es ist auch viel einfacher, als Download snapshot herunterzuladen."
-https://api.openalex.org/works?filter=cites:W2741809807 <br></br>
-https://api.openalex.org/works?filter=cited_by:W2766808518
+Die API ist der primäre Weg, um OpenAlex-Daten zu erhalten. Es ist kostenlos, einfach, schnell zu erhalten um alle Ergebnisse als Snapshot im gleichen Format wie von 
+auf den Computer herunterzuladen.
+* https://api.openalex.org/works?filter=cites:W2741809807
+* https://api.openalex.org/works?filter=cited_by:W2766808518
 
-"Verwenden Sie kein Cursor-Paging, um einen sehr großen oder sogar den gesamten Datensatz herunterzuladen Es ist schlecht für Sie, weil es viele Tage dauern wird, eine lange Liste wie '/works' oder '/authors' durchzublättern. Es ist schlecht für die OpenAlex-API (und andere Benutzer!), weil es ihre Server massiv belastet. Laden Sie stattdessen alles auf einmal herunter, indem Sie den Daten-Snapshot verwenden. Es ist kostenlos, einfach, schnell und Sie erhalten alle Ergebnisse im gleichen Format wie von der API.
-Auf Ihren Computer herunterladen"
-https://docs.openalex.org/download-snapshot <br></br>
-https://docs.openalex.org/download-snapshot/download-to-your-machine
+* https://docs.openalex.org/download-snapshot   
+* https://docs.openalex.org/download-snapshot/download-to-your-machine
 
 
 ## getting started
