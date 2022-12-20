@@ -41,6 +41,23 @@ Dabei gibt es mehrere Verbindungen
 ### Projektplanung
 https://thkoelnde-my.sharepoint.com/:x:/g/personal/memla_salarzei_smail_th-koeln_de/ES1BHrW9n61Gg_Oeo1l6ZJIBQ9dX7qpLtS2gWV-4FPxCUQ?rtime=J7RlVkLd2kg
 
+| Aufgabenname:  |  Status | Start  |   Ziellende  | endgültiges Enddatum  |  Kommentar  |
+|---|---|---|---|---|---|
+|  Projektkonzeption | In Bearbeitung  |  20.10.2022 |   |  	 | Aufgaben in Bearbeitung sehr viel recherchieren |
+|   |   |   |   |   |
+| Gestaltug des Webinterface  | offen |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
+| Github repository erstellen  |  Vollständig |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
+| Texte |  in Bearbeitung  |   10.12.2022|   |   |  |
+| Projektplanung   |   |   |   |   |  wir arbeiten am anfang nur mit den ersten 100 Daten und später erweitern wir uns |
+| Zielsetzung  |  Vollständig | 10.12.2022  |  20.12.2022 |   | Smart ziele nennen|
+|  Reccourcenpalnung |Vollständig   |  10.12.2022 | 14.2022  |   |Virtuele Maschine für später|
+|  Projektablaufplan |   in Bearbeitung|  20.10.2022 |   |   ||
+|  Projektausführung |   |   |   |   ||
+|  Prognose |  Nicht gestartet | 10.07.2023  |  19.07.2023 |   |
+| Status  |  Nicht gestartet |   10.07.2023|   19.07.2023 |  |
+|  Updates |   Nicht gestartet|  10.07.2023 | 19.07.2023   |  |
+|  Zielfoschung| Nicht gestartet  |  10.07.2023 | 19.07.2023 |   |
+| Auswertung  |  Nicht gestartet | 10.07.2023  |  19.07.2023 |   |
 <br></br>
 ### Ressourcen
 Die API ist der primäre Weg, um OpenAlex-Daten zu erhalten. Es ist kostenlos, einfach, schnell zu erhalten um alle Ergebnisse als Snapshot im gleichen Format wie von 
