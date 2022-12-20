@@ -54,10 +54,9 @@ Das OpenAlex Katalog bietet eine gute Grundlage dafür, über die API wissenscha
 | Auswertung  |  Nicht gestartet | 10.07.2023  |  19.07.2023 |   |
 <br></br>
 ### Ressourcen
-Die API ist der primäre Weg, um OpenAlex-Daten zu erhalten. Es ist kostenlos, einfach, schnell zu erhalten um alle Ergebnisse als Snapshot im gleichen Format wie von 
-auf den Computer herunterzuladen.
-* https://api.openalex.org/works?filter=cites:W2741809807
-* https://api.openalex.org/works?filter=cited_by:W2766808518
+Als Main Ressoruce wird hauptsächlich die API genutzt, die von OpenAlex bereit gestellt wird.
+* https://api.openalex.org/works
+* https://api.openalex.org/works
 
 * https://docs.openalex.org/download-snapshot   
 * https://docs.openalex.org/download-snapshot/download-to-your-machine
