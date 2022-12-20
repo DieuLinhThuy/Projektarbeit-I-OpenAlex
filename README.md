@@ -20,16 +20,10 @@ Was ist Neo4j?
 
 <br></br>
 ## Projektbeschreibung
-In unserem Projekt sollen OpenAlex und Neo4j zur visuellen Darstellungen der Daten miteinander verbunden werden.
-Unser Projektziel ist es einen Knowledge Graphen mithilfe der Graphdatenbank NEO4j zu erstellen. Die Daten hierzu sollen durch die API von dem Opensource Wissenschaftskatalog OpenAlex extrahiert werden, um die Zitationsdaten(?) von Artikeln in einem Web Interface darzustellen.Ein ideales Endergebnis wäre ein Minimal Viable Products, bei dem der Knowlegde Graph im Web Interface abgebildet ist.
 
-## Projektziel
-Zielgruppe:
+Das OpenAlex Katalog bietet eine gute Grundlage dafür, über die API wissenschaftliche Werke zu finden. Darüber hinaus sind  verwandte Werke zu einer bestimmten wissenschaftlichen Arbeit sichtbar. Auf dieser Basis enstand das Projektziel, über die mit der API verbundenen Werke zu wissenschaftlichen Arbeiten von OpenAlex zu extrahieren und diese in der Graphdatenbank NEO4j visuell dazustellen. Dazu soll ein Web-Interface erstellt werden, welcher den Knowledge Graph darstellt und für die Nutzer des Web Interfaces veranschaulicht. Vor allem Studierende, die eine wissenschaftliche Arbeit schreiben sollen die Möglichkeit haben über ein Thema Werke zu finden, die miteinander verbunden sind und zusätzlich dazu weitere Verbindungen zu finden. Das soll zielgreifend die Recherche der Studierenden erleichtern und sich einfacher in den Themen zu explorieren. Ein ideales Ergebnis ist ein Minimal Viable Product, bei dem ein Knowlegde Graph im Web Interface abgebildet ist.
 
-Releted works  zu api 
-Über die Api verbundene werke zu wissenschaftlichen Arbeiten zu extrahieren und diese in der Graphdatenbank NEO4j zu hinterlegen, um es graphisch darzustellen
-Studierende die eine wissenschaftliche Arbeit schreiben können über eine Thema werke finden die zu dem einen die dazu verbunden sind finden 
-Dabei gibt es mehrere Verbindungen
+
 
 ![image](https://user-images.githubusercontent.com/92934375/208732448-cff613fd-4cdd-48c2-97b5-cbe929fc9b42.png)
 
@@ -39,7 +33,7 @@ Dabei gibt es mehrere Verbindungen
 ### SMARTE Ziele
 
 ### Projektplanung
-https://thkoelnde-my.sharepoint.com/:x:/g/personal/memla_salarzei_smail_th-koeln_de/ES1BHrW9n61Gg_Oeo1l6ZJIBQ9dX7qpLtS2gWV-4FPxCUQ?rtime=J7RlVkLd2kg
+
 
 <br></br>
 ### Ressourcen
