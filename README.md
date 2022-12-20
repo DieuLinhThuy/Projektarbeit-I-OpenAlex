@@ -23,6 +23,18 @@ Was ist Neo4j?
 In unserem Projekt sollen OpenAlex und Neo4j zur visuellen Darstellungen der Daten miteinander verbunden werden.
 Unser Projektziel ist es einen Knowledge Graphen mithilfe der Graphdatenbank NEO4j zu erstellen. Die Daten hierzu sollen durch die API von dem Opensource Wissenschaftskatalog OpenAlex extrahiert werden, um die Zitationsdaten(?) von Artikeln in einem Web Interface darzustellen.Ein ideales Endergebnis wäre ein Minimal Viable Products, bei dem der Knowlegde Graph im Web Interface abgebildet ist.
 
+## Projektziel
+Zielgruppe:
+
+Releted works  zu api 
+Über die Api verbundene werke zu wissenschaftlichen Arbeiten zu extrahieren und diese in der Graphdatenbank NEO4j zu hinterlegen, um es graphisch darzustellen
+Studierende die eine wissenschaftliche Arbeit schreiben können über eine Thema werke finden die zu dem einen die dazu verbunden sind finden 
+Dabei gibt es mehrere Verbindungen
+
+![image](https://user-images.githubusercontent.com/92934375/208732448-cff613fd-4cdd-48c2-97b5-cbe929fc9b42.png)
+
+
+
 <br></br>
 ### SMARTE Ziele
 
