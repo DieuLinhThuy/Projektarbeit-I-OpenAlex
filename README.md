@@ -1,4 +1,11 @@
 # Projektarbeit-I-OpenAlex
+Notizen vom 21.12.2022:
+API und Filterung das Gleiche
+Aufteilung der Aufgaben 
+
+Related Works noch etwas zu oberflächlich beschrieben
+https://docs.openalex.org/about-the-data/work#related_works
+
 
 <br></br>
 
