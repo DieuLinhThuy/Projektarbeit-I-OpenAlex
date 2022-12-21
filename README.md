@@ -78,7 +78,14 @@ Als Main Ressoruce wird hauptsächlich die API genutzt, die von OpenAlex bereit 
 
 ## Arbeitsweise
 <br></br>
-
+**Vorgehensweise**
+1. Recherche 
+2. Daten Extrahieren von Open Alex
+--> Diese Analysieren 
+3. Mithilfe von Python filtern wir die Daten auf Open Alex API, Titel , Autor , Publikation, Typ und Releted Works 
+4. Einarbeitung in NEO4J
+-->Graphen erstellen 
+5. Webinterface bauen und Graphen und Daten darstellen
  
 **Vorbereitungsphase**
 
