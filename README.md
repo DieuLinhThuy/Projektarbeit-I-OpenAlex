@@ -25,7 +25,11 @@ Das OpenAlex Katalog bietet eine gute Grundlage dafür, über die API wissenscha
 
 <br></br>
 ### SMARTE Ziele
-
+ __S__ :  Schenlle und unkomplizierte Möglichkeit zu haben über ein Thema Werke zu finden, die miteinander verbunden sind und zusätzlich dazu weitere Verbindungen zu finden. <br></br>
+__M__ : Es soll vorerst ein kleines Subset von 100 Daten eingestetzt werden um diese visuel in ein Knowledge Graphen darszutellen , die wir dann bei erfolg erweitern. Es soll am ende ein sichbares ergebniss im Webinterface zu sehen sein.<br></br>
+__A__ : Einarbeitug in neue Systeme<br></br>
+__R__ : Für Wissenschaftler oder Studierende die gerade eine Arbeit verfassen oder danach suchen , sie schnell und präzise zu finden. <br></br>
+__T__ : 21.07.2023
 ### Projektplanung
 
 
@@ -74,7 +78,7 @@ Als Main Ressoruce wird hauptsächlich die API genutzt, die von OpenAlex bereit 
 <br></br>
 **Vorgehensweise**
 1. Recherche 
-2. Daten Extrahieren von Open Alex
+2. Daten Extrahieren von Open Alex<br></br>
 --> Diese Analysieren 
 3. Mithilfe von Python filtern wir die Daten auf Open Alex API, Titel , Autor , Publikation, Typ und Releted Works 
 4. Einarbeitung in NEO4J
