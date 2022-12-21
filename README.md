@@ -1,11 +1,5 @@
 # Projektarbeit-I-OpenAlex
-Anmerkungen zur Vorstellung am 14.12.2022
-* kleines Subset statt 300GB
-* Zielgruppe definieren
-* Planungsweise genauer beschreiben 
-  * nächsten Schritte einplanen 
-  * Deadlines genauer beschreiben (bsp: bis zu diesem Datum eine CSV)
-  * explorierend --> Was brauchen wir?
+
 <br></br>
 
 ## Einleitung
