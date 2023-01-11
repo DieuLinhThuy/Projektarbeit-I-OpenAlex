@@ -78,7 +78,7 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 
 
 Tools :
-Frontend : HTML; CSS; Jquery; d3.js
+Frontend : HTML; CSS; d3.js
 
 Backend: Flask (funktionalität der Webapp); Neo4j Desktop
 
