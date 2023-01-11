@@ -71,6 +71,11 @@ Als Main Ressoruce wird hauptsächlich die API genutzt, die von OpenAlex bereit 
 Extrahierung der Daten in einer Tabelle
 https://thkoelnde-my.sharepoint.com/:x:/g/personal/samaneh_ilchi_smail_th-koeln_de/ES2E0TSPY35Gq-1jtPe8EFYBAJIiaXDUq_g6RpEXrvRlWg?rtime=G2uAFdHz2kg
 
+Beispielprojekt von Neo4j
+http://my-neo4j-movies-app.herokuapp.com/
+
+Beispiel von unserer Vorstellung des Web Interfaces
+https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3
 
 ## getting started
 
