@@ -63,7 +63,6 @@ __T__ : 21.07.2023
 ### Ressourcen
 Als Main Ressoruce wird hauptsächlich die API genutzt, die von OpenAlex bereit gestellt wird.
 * https://api.openalex.org/works
-* https://api.openalex.org/works
 
 * https://docs.openalex.org/download-snapshot   
 * https://docs.openalex.org/download-snapshot/download-to-your-machine
