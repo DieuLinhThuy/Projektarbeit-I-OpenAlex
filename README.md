@@ -68,6 +68,9 @@ Als Main Ressoruce wird hauptsächlich die API genutzt, die von OpenAlex bereit 
 * https://docs.openalex.org/download-snapshot   
 * https://docs.openalex.org/download-snapshot/download-to-your-machine
 
+Extrahierung der Daten in einer Tabelle
+https://thkoelnde-my.sharepoint.com/:x:/g/personal/samaneh_ilchi_smail_th-koeln_de/ES2E0TSPY35Gq-1jtPe8EFYBAJIiaXDUq_g6RpEXrvRlWg?rtime=G2uAFdHz2kg
+
 
 ## getting started
 
