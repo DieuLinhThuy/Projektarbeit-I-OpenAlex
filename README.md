@@ -46,6 +46,7 @@ __T__ : 21.07.2023
 |  Projektkonzeption | In Bearbeitung  |  20.10.2022 |   |  	 | Aufgaben in Bearbeitung sehr viel recherchieren |
 |   |   | 04.01.2023  | 04.01.2023  |   | Gruppentreffen zur Konzipierung
 |   |   | 09.01.2023  | 09.01.2023  |   | Zusammenfassung der Rechercheergebnisse
+|   |   | 10.01.2023  | 10.01.2023  |   | Zwischenergebnisse
 | Gestaltug des Webinterface  | offen |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
 | Github repository erstellen  |  Vollständig |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
 | Texte |  in Bearbeitung  |   10.12.2022|   |   |  |
