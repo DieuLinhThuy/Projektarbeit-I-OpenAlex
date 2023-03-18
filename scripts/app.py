@@ -16,7 +16,7 @@ app = Flask(__name__)
 # driver = Graphdatabase.driver(url, auth=basic_auth(username, password))
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("table.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
