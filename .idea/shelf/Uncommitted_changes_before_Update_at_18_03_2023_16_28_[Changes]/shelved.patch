@@ -1,0 +1,19 @@
+Index: scripts/templates/table.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{% extends 'index.html' %}\r\n{% set active_page = 'table' %}\r\n\r\n\r\n{% block body %}\r\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css\">\r\n<link rel=\"stylesheet\" href=\"https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css\">\r\n\r\n<h2>Suchergebnisse</h2>\r\n\r\n<table class=\"table\">\r\n    <thead>\r\n      <tr>\r\n        <th scope=\"col\">title</th>\r\n        <th scope=\"col\">year</th>\r\n        <th scope=\"col\">author</th>\r\n      </tr>\r\n    </thead>\r\n    {% for row in table %}\r\n    <tbody id=\"search results\">\r\n      <tr>\r\n        <tbody id=\"campaign-list\">\r\n\r\n          <tr>\r\n              <td>{{row.title}}</td>\r\n              <td>{{row.year}}</td>\r\n              <td>{{row.author}}</td>\r\n          </tr>\r\n\r\n    </tbody>\r\n  </table>\r\n{% endblock %}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scripts/templates/table.html b/scripts/templates/table.html
+--- a/scripts/templates/table.html	(revision 7789c776f926c3c8298056ef0b11ed354e337ca9)
++++ b/scripts/templates/table.html	(date 1679153254038)
+@@ -6,8 +6,6 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+ 
+-<h2>Suchergebnisse</h2>
+-
+ <table class="table">
+     <thead>
+       <tr>
