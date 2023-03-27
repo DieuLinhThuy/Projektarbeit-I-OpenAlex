@@ -1,54 +1,41 @@
 {% include 'index.html' %}
-<<<<<<< HEAD
-{% set active_page = 'table' %}
-
-{% block body %}
-
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">title</th>
-      <th scope="col">year</th>
-      <th scope="col">author</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-=======
 
 {% block body %}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
-
-<table class="table">
+<link rel="stylesheet" href="C:/Users/linhn/OneDrive/Dokumente/Sommersemester 2023/Projektarbeit-I-OpenAlex/scripts/static/css/test_formating.css">
+<div class="container">
+  <h2>OpenAlex Works</h2>
+  <p>Find related works:</p>            
+  <table class="table">
     <thead>
       <tr>
-        <th scope="col">title</th>
-        <th scope="col">year</th>
-        <th scope="col">author</th>
+        <th>Author</th>
+        <th>title</th>
+        <th>Year</th>
       </tr>
     </thead>
-    <tbody id="search results">
+    <tbody>
       <tr>
-          <th scope="row">1</th>
+        <td>John Doe</td>
+        <td>Title 1</td>
+        <td>year</td>
       </tr>
       <tr>
-          <th scope="row">2</th>
+        <td>Mary Moe</td>
+        <td>Title 2</td>
+        <td>year</td>
       </tr>
       <tr>
-          <th scope="row">3</th>
+        <td>July Dooley</td>
+        <td>Title 3</td>
+        <td>year</td>
       </tr>
->>>>>>> 2f5765ade7a8b103d0c6e9ddcd6f397ae6f42100
+    </tbody>
+  </table>
+</div>
 
-    </tr>
-  </tbody>
-</table>
+</body>
+</html>
+
 {% endblock %}
