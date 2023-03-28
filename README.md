@@ -142,7 +142,7 @@ Wir arbeiten klassisch, wollen jedoch zum agilen Projektmanagement wechseln soal
 **Probleme / Fragen**
 
 - Autoren sind vernestest in einer Liste. Müssen extrahiert werden 
-- Knoten punkte sind über die URL gegeben. Ist es so in Ordung ? Vorteil-> man wird weiter geleitet auf die URL mit den Daten / Nachteil-> es ist unklar bis man auf den Link klickt 
+- Knoten punkte sind über die URL gegeben. Ist es so in Ordung ? Vorteil--> man wird weiter geleitet auf die URL mit den Daten / Nachteil--> es ist unklar bis man auf den Link klickt 
 - Wie man die Tabelle umänderen kann , da es mit Boostrap Schwierigkeit aufweist 
 - Mit hilfe des Java Script , wissen wir nicht wie wir weiter machen soll
 - Was erwarten sind von der Web app ?
