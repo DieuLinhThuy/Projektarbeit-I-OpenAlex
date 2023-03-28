@@ -49,7 +49,8 @@ __T__ : 21.07.2023
 |   |   | 09.01.2023  | 09.01.2023  |   | Zusammenfassung der Rechercheergebnisse
 |   |   | 10.01.2023  | 10.01.2023  |   | Zwischenergebnisse
 | Daten extrahiert von Open Alex | offen |  01.02.2023 |  01.04.2023 |   | Open-Alex ID , Titel , Releated Work , typ, Published date |
-| Daten mit NEO4J verbunden | offen |  01.03.2023 |  10.07.2023 |   | Daten hochgeladen |
+| Daten mit NEO4J verbunden | offen |  10.03.2023 |  10.07.2023 |   | 1000 Daten hochgeladen |
+| Einteilung der Aufgaben| Vollständig|  10.03.2023 |  10.07.2023 |   | in 2 Gruppen aufgeteilt |
 | Gestaltug des Webinterface  | offen |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
 | HTML Seiten wurden erstellt  | offen |  10.03.2023 |  10.07.2023 |   | Single Page App |
 | Einarbeitung in FLASK  | offen |  14.03.2023 |  10.07.2023 |   
