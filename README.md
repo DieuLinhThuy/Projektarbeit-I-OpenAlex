@@ -48,7 +48,14 @@ __T__ : 21.07.2023
 |   |   | 05.01.2023  | 07.01.2023  |   | Arbeit in Zweiergruppen
 |   |   | 09.01.2023  | 09.01.2023  |   | Zusammenfassung der Rechercheergebnisse
 |   |   | 10.01.2023  | 10.01.2023  |   | Zwischenergebnisse
+| Daten extrahiert von Open Alex | offen |  01.02.2023 |  01.04.2023 |   | Open-Alex ID , Titel , Releated Work , typ, Published date |
+| Daten mit NEO4J verbunden | offen |  01.03.2023 |  10.07.2023 |   | Daten hochgeladen |
 | Gestaltug des Webinterface  | offen |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
+| HTML Seiten wurden erstellt  | offen |  10.03.2023 |  10.07.2023 |   | Single Page App |
+| Einarbeitung in FLASK  | offen |  14.03.2023 |  10.07.2023 |   
+| NEO4j mit FLASK verbunden  | offen |  17.03.2023 |  10.07.2023 |   
+| Einarbeitung in Neovis.js  | offen |  26.03.2023 |  offen |   
+|CSS Formatierung | offen |  14.03.2023 |  offen |  
 | Github repository erstellen  |  Vollständig |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
 | Texte |  in Bearbeitung  |   10.12.2022|   |   |  |
 | Projektplanung   |   |   |   |   |  wir arbeiten am anfang nur mit den ersten 100 Daten und später erweitern wir uns |
