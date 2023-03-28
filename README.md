@@ -139,7 +139,7 @@ Das Projekt wird abgeschlossen, die Arbeitsergebnisse werden abgenommen und die 
 Wir arbeiten klassisch, wollen jedoch zum agilen Projektmanagement wechseln soald wir unsere Projektziel erweitern.
 
 
-**Probleme / Fragen **
+**Probleme / Fragen**
 
 - Autoren sind vernestest in einer Liste. Müssen extrahiert werden 
 - Knoten punkte sind über die URL gegeben. Ist es so in Ordung ? Vorteil-> man wird weiter geleitet auf die URL mit den Daten / Nachteil-> es ist unklar bis man auf den Link klickt 
