@@ -138,6 +138,7 @@ Das Projekt wird abgeschlossen, die Arbeitsergebnisse werden abgenommen und die 
 
 Wir arbeiten klassisch, wollen jedoch zum agilen Projektmanagement wechseln soald wir unsere Projektziel erweitern.
 
+![image](https://user-images.githubusercontent.com/92687630/228575255-c87af089-54dd-4d2d-b871-ce470b1993fb.png)
 
 **Probleme / Fragen**
 
