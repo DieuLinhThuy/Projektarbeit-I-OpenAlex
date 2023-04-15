@@ -1,17 +1,16 @@
-import os
 from neo4j import GraphDatabase
-from flask import Flask, render_template, request, redirect
-from dotenv import load_dotenv
+from flask import Flask, render_template, request
+from bokeh.plotting import figure
+from bokeh.embed import components
 
-load_dotenv()
-
-password = os.environ.get("DATABASE_PASSWORD")
-username = os.environ.get("DATABASE_USERNAME")
-url = os.getenv("DATABASE_URL")
 app = Flask(__name__)
 
 # Verbindung zur Neo4j-Datenbank herstellen
-driver = GraphDatabase.driver(url, auth=(username, password))
+uri = "bolt://localhost:7687"
+user = "neo4j"
+password = "Flora2049%"
+driver = GraphDatabase.driver(uri, auth=(user, password))
+
 
 # Abfrage der Daten aus der Datenbank
 def get_data(work_title):
@@ -25,25 +24,33 @@ def get_data(work_title):
         return [dict(row) for row in result]
 
 
+# Bokeh-Plot definieren
+def make_bokeh_plot(data):
+    plot = figure(title="Related Works", x_axis_label='Author', y_axis_label='Number of related works')
+    x_values = [row['author_name'] for row in data]
+    y_values = [len(row['related_works']) for row in data]
+    plot.vbar(x=x_values, top=y_values, width=0.5)
+    return plot
+
+
 # Flask-Route definieren
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
-    return render_template('index.html')
+    if request.method == 'POST':
+        # Suchanfrage hier durchführen
+        work_title = request.form['work_title']
+        data = get_data(work_title)
+        bokeh_plot = make_bokeh_plot(data)
+
+        # Daten für das Bokeh-Plot hier vorbereiten
+        script, div = components(bokeh_plot)
+
+        # HTML-Seite mit Suchergebnissen und Bokeh-Plot anzeigen
+        return render_template('search_results.html', results=data, script=script, div=div)
+    else:
+        # Standardseite anzeigen
+        return render_template('index.html')
 
 
-# Flask-Route definieren
-@app.route('/works', methods=['POST'])
-def search_work():
-    work_title = request.form['work_title']
-    return redirect(f'/works/{work_title}')
-
-
-@app.route('/works/<string:work_title>')
-def show_related_works(work_title):
-    data = get_data(work_title)
-    print(data)
-    return render_template('table.html', data=data)
-
-if __name__ == "__main__":
-    app.run(debug=True,
-            port=8080)
+if __name__ == '__main__':
+    app.run(debug=True, port=8080)

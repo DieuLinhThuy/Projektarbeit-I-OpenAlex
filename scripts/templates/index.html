@@ -1,7 +1,3 @@
-{% include 'header.html' %}
-{% set active_page = 'index' %}
-
-{% block body %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,11 +5,15 @@
   </head>
   <body>
     <h1>Meine Anwendung</h1>
-    <form action="/works" method="POST">
+    <form action="/search" method="POST">
       <label for="work_title">Titel des Werks:</label>
       <input type="text" name="work_title" id="work_title">
       <button type="submit">Suchen</button>
     </form>
+
+
   </body>
+
 </html>
-{% endblock %}
+
+

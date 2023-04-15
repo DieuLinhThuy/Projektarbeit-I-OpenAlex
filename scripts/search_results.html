@@ -13,7 +13,6 @@
         <thead>
           <tr>
             <th>Titel</th>
-
             <th>Verwandtes Werk</th>
             <th>Verwandter Graph</th>
           </tr>
@@ -22,7 +21,6 @@
           {% for result in results %}
             <tr>
               <td>{{ result.work_title }}</td>
-
               <td>{{ result.related_work_title }}</td>
               <td>{{ result.related_work_plot_div }}</td>
             </tr>
@@ -32,6 +30,5 @@
     {% else %}
       <p>Keine Suchergebnisse gefunden.</p>
     {% endif %}
-    {{ div }}
   </body>
 </html>
