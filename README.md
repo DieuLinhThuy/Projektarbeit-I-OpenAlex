@@ -8,6 +8,14 @@
 * Zwischenbericht am 11.01.2023
 
 
+# Stand 15.04:
+- Suche funktioniert nur über Titel
+- Problem: Titel muss richtig geschrieben werden, da ansonsten keine Ergebnisse angezeigt werden
+  - mögliche Suchvorschläge 
+
+# Vorschlag: 
+- nach Thema suchen
+
 <br></br>
 
 ## Einleitung
@@ -48,7 +56,15 @@ __T__ : 21.07.2023
 |   |   | 05.01.2023  | 07.01.2023  |   | Arbeit in Zweiergruppen
 |   |   | 09.01.2023  | 09.01.2023  |   | Zusammenfassung der Rechercheergebnisse
 |   |   | 10.01.2023  | 10.01.2023  |   | Zwischenergebnisse
+| Daten extrahiert von Open Alex | offen |  01.02.2023 |  01.04.2023 |   | Open-Alex ID , Titel , Releated Work , typ, Published date |
+| Daten mit NEO4J verbunden | offen |  10.03.2023 |  10.07.2023 |   | 1000 Daten hochgeladen |
+| Einteilung der Aufgaben| Vollständig|  10.03.2023 |  10.07.2023 |   | in 2 Gruppen aufgeteilt |
 | Gestaltug des Webinterface  | offen |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
+| HTML Seiten wurden erstellt  | offen |  10.03.2023 |  10.07.2023 |   | Single Page App |
+| Einarbeitung in FLASK  | offen |  14.03.2023 |  10.07.2023 |   
+| NEO4j mit FLASK verbunden  | offen |  17.03.2023 |  10.07.2023 |   
+| Einarbeitung in Neovis.js  | offen |  26.03.2023 |  offen |   
+|CSS Formatierung | offen |  14.03.2023 |  offen |  
 | Github repository erstellen  |  Vollständig |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
 | Texte |  in Bearbeitung  |   10.12.2022|   |   |  |
 | Projektplanung   |   |   |   |   |  wir arbeiten am anfang nur mit den ersten 100 Daten und später erweitern wir uns |
@@ -129,4 +145,16 @@ Das Projekt wird abgeschlossen, die Arbeitsergebnisse werden abgenommen und die 
 
 
 Wir arbeiten klassisch, wollen jedoch zum agilen Projektmanagement wechseln soald wir unsere Projektziel erweitern.
+
+![image](https://user-images.githubusercontent.com/92687630/228575255-c87af089-54dd-4d2d-b871-ce470b1993fb.png)
+
+**Probleme / Fragen**
+
+- Autoren sind vernestest in einer Liste. Müssen extrahiert werden 
+- Knoten punkte sind über die URL gegeben. Ist es so in Ordung ? **Vorteil**: man wird weiter geleitet auf die URL mit den Daten / **Nachteil**: es ist unklar bis man auf den Link klickt 
+- Wie man die Tabelle umänderen kann , da es mit Boostrap Schwierigkeit aufweist 
+- Mit hilfe des Java Script , wissen wir nicht wie wir weiter machen soll
+- Was erwarten sind von der Web app ?
+- Wie stellen sie die Visualisierung vor? 
+- Gibt es so welche ähnlichen Projekte an denene man sich orientieren kann. 
 
