@@ -8,6 +8,14 @@
 * Zwischenbericht am 11.01.2023
 
 
+# Stand 15.04:
+- Suche funktioniert nur über Titel
+- Problem: Titel muss richtig geschrieben werden, da ansonsten keine Ergebnisse angezeigt werden
+  - mögliche Suchvorschläge 
+
+# Vorschlag: 
+- nach Thema suchen
+
 <br></br>
 
 ## Einleitung
