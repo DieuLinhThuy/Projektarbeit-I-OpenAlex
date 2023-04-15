@@ -1,3 +1,7 @@
+$(document).ready( function () {
+  $('#myTable').DataTable();
+} );
+
 const form = document.querySelector('form');
 const alert = document.createElement('div');
 alert.classList.add('alert');

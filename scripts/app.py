@@ -1,13 +1,17 @@
+import os
 from neo4j import GraphDatabase
 from flask import Flask, render_template, request, redirect
+from dotenv import load_dotenv
 
+load_dotenv()
+
+password = os.environ.get("DATABASE_PASSWORD")
+username = os.environ.get("DATABASE_USERNAME")
+url = os.getenv("DATABASE_URL")
 app = Flask(__name__)
 
 # Verbindung zur Neo4j-Datenbank herstellen
-uri = "bolt://localhost:7687"
-user = "neo4j"
-password = "Flora2049%"
-driver = GraphDatabase.driver(uri, auth=(user, password))
+driver = GraphDatabase.driver(url, auth=(username, password))
 
 # Abfrage der Daten aus der Datenbank
 def get_data(work_title):
@@ -35,11 +39,11 @@ def search_work():
 
 
 @app.route('/works/<string:work_title>')
-
 def show_related_works(work_title):
     data = get_data(work_title)
     print(data)
     return render_template('table.html', data=data)
 
-if __name__ == '__main__':
-    app.run(port=8080)
+if __name__ == "__main__":
+    app.run(debug=True,
+            port=8080)

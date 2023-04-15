@@ -1,4 +1,10 @@
-<table>
+{% include 'index.html' %}
+
+{% block body %}
+
+<link href="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.css" rel="stylesheet"/>
+<div style= "float:left">
+<table id="myTable" class="display">
   <thead>
     <tr>
       <th>Author Name</th>
@@ -10,8 +16,6 @@
     {% for row in data %}
     <tr>
       <td>{{ row['author_name'] }}</td>
-
-
       <td>{{ row['related_work_title'] }}</td>
       <td>
         <ul>
@@ -25,6 +29,19 @@
     {% endfor %}
   </tbody>
 </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#myTable').DataTable({
+        searching: false
+      });
+  });
+</script>
+{% endblock %}
+
 
 
 
