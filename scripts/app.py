@@ -41,9 +41,25 @@ def search_work():
 @app.route('/works/<string:work_title>')
 def show_related_works(work_title):
     data = get_data(work_title)
-    print(data)
+    graph = get_knowledge_graph(data)
+    plot = Plot(plot_width=800, plot_height=800, x_range=Range1d(-2, 2), y_range=Range1d(-2, 2))
+
+    node_hover_tool = HoverTool(tooltips=[("Name", "@name")])
+    plot.add_tools(node_hover_tool, TapTool(), BoxSelectTool(), BoxZoomTool(), ResetTool(), WheelZoomTool())
+
+    graph_renderer = from_networkx(graph, nx.spring_layout, scale=1, center=(0, 0))
+    graph_renderer.node_renderer.glyph = Circle(size=15, fill_color="skyblue")
+    graph_renderer.node_renderer.hover_glyph = Circle(size=15, fill_color="red")
+    graph_renderer.edge_renderer.glyph = MultiLine(line_color="gray", line_alpha=0.8, line_width=1)
+    graph_renderer.edge_renderer.hover_glyph = MultiLine(line_color="red", line_alpha=1, line_width=2)
+
+    plot.renderers.append(graph_renderer)
+
+    output_file("knowledge_graph.html")
+    show(plot)
+
     return render_template('table.html', data=data)
 
+
 if __name__ == "__main__":
-    app.run(debug=True,
-            port=8080)
+    app.run(port=8080)
