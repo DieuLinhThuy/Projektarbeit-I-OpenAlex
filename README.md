@@ -1,5 +1,7 @@
 # Projektarbeit-I-OpenAlex
-* Notizen vom 21.12.2022:
+<br></br>
+
+# Stand 21.12.2022:
 * API und Filterung das Gleiche
 * Aufteilung der Aufgaben 
 
@@ -9,7 +11,7 @@
 
 <br></br>
 
-# Stand 19.04:
+# Stand 19.04.2023:
 - Autoren bereits aus der OpenAlex Datenbank extrahiert
 - eine neue CSV Datei wurde anschließend in Neo4J importiert
 
