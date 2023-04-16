@@ -7,11 +7,28 @@
 * https://docs.openalex.org/about-the-data/work#related_works
 * Zwischenbericht am 11.01.2023
 
+<br></br>
 
-# Stand 15.04:
+# Stand 19.04:
+- Autoren bereits aus der OpenAlex Datenbank extrahiert
+- eine neue CSV Datei wurde anschließend in Neo4J importiert
+
+In Pycharm:
+* HTML Code erstellt
+* Flask App 
+  - Verbindung mit Neo4J hergestellt
+* CSS ertstellt und variiert
+
+Aktueller Stand:
+- Web Interface mit Tabelle, welche die related Works und die dazugehörigen Links zu OpenAlex anzeigt, Autoren und eine Suchleiste bei dem das gewünschte Werk gesucht wird
 - Suche funktioniert nur über Titel
-- Problem: Titel muss richtig geschrieben werden, da ansonsten keine Ergebnisse angezeigt werden
+* Problem: Titel muss richtig geschrieben werden, da ansonsten keine Ergebnisse angezeigt werden
   - mögliche Suchvorschläge 
+
+Vorhaben:
+- den Graphen neben der Tabelle anzeigen lassen 
+ 
+<br></br>
 
 # Vorschlag: 
 - nach Thema suchen
