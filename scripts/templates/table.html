@@ -1,37 +1,69 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Suchergebnisse</title>
-    <link href="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js"></script>
-    {{ script }}
-  </head>
-  <body>
-    <h1>Suchergebnisse</h1>
-    {% if results %}
-      <table>
-        <thead>
-          <tr>
-            <th>Titel</th>
+{% include 'index.html' %}
 
-            <th>Verwandtes Werk</th>
-            <th>Verwandter Graph</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for result in results %}
-            <tr>
-              <td>{{ result.work_title }}</td>
+{% block body %}
 
-              <td>{{ result.related_work_title }}</td>
-              <td>{{ result.related_work_plot_div }}</td>
-            </tr>
+<link href="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.css" rel="stylesheet"/>
+<link href="{{url_for('static', filename = 'css/samaneh_css.css')}}" rel="stylesheet"/>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.0.min.js"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.0.min.js"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.0.min.js"></script>
+
+<div style= "float:left">
+<table id="myTable" class="display">
+  <thead>
+    <tr>
+      <th>Author Name</th>
+      <th>Related Work Title</th>
+      <th>Related Works</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in data %}
+    <tr>
+      <td>{{ row['author_name'] }}</td>
+      <td>{{ row['related_work_title'] }}</td>
+      <td>
+        <ul>
+          {% for related_work in row['related_works'] %}
+          <li><a href="{{ related_work }}">{{ related_work }}</a></li>
+
           {% endfor %}
-        </tbody>
-      </table>
-    {% else %}
-      <p>Keine Suchergebnisse gefunden.</p>
-    {% endif %}
-    {{ div }}
-  </body>
-</html>
+        </ul>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+<div style= "float:right">
+<div class="col-md-6">
+  <h1>Knowledge Graph</h1>
+    <div id="knowledge-graph">{{ div|safe }}</div>
+    {{ script|safe }}
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#myTable').DataTable({
+        searching: false
+      });
+  });
+</script>
+
+{{ resources|safe }}
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+

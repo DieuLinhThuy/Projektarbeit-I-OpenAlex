@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Suchergebnisse</title>
+    <link href="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js"></script>
+    {{ script }}
+  </head>
+  <body>
+    <h1>Suchergebnisse</h1>
+    <ul>
+      {% for result in results %}
+        <li>{{ result }}</li>
+      {% endfor %}
+    </ul>
+    {{ div }}
+  </body>
+</html>
