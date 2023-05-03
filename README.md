@@ -135,18 +135,18 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 | NEO4j connected with FLASK  | open |  17.03.2023 |  10.07.2023 |   
 | Familiarization with Neovis.js  | open |  26.03.2023 |  open |   
 |CSS formatting | open |  14.03.2023 |  open |  open
-| Create Github repository  |  Vollständig |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
-| Texts |  in Bearbeitung  |   10.12.2022|   |   |  |
-| Project planning   |   |   |   |   |  wir arbeiten am anfang nur mit den ersten 100 Daten und später erweitern wir uns |
-| Target  |  Vollständig | 10.12.2022  |  20.12.2022 |   | Smart ziele nennen|
-|  Resource Planning |Vollständig   |  10.12.2022 | 14.2022  |   |Virtuele Maschine für später|
-|  Projektablaufplan |   in Bearbeitung|  20.10.2022 |   |   ||
-|  Projektausführung |   |   |   |   ||
-|  Prognose |  Nicht gestartet | 10.07.2023  |  19.07.2023 |   |
-| Status  |  Nicht gestartet |   10.07.2023|   19.07.2023 |  |
-|  Updates |   Nicht gestartet|  10.07.2023 | 19.07.2023   |  |
-|  Zielfoschung| Nicht gestartet  |  10.07.2023 | 19.07.2023 |   |
-| Auswertung  |  Nicht gestartet | 10.07.2023  |  19.07.2023 |   |
+| Create Github repository  |  Complete |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
+| Texts |  in progress  |   10.12.2022|   |   |  |
+| Project planning   |   |   |   |   |  we work at the beginning only with the first 100 data and later we expand |
+| Target  |  complete | 10.12.2022  |  20.12.2022 |   | Name SMART goals|
+|  Resource Planning |complete   |  10.12.2022 | 14.2022  |   |Virtual machine for later|
+|  Project schedule |   in progress |  20.10.2022 |   |   ||
+|  Project execution |   |   |   |   ||
+|  Forecast |  Not started | 10.07.2023  |  19.07.2023 |   |
+| Status  |  Not started |   10.07.2023|   19.07.2023 |  |
+|  Updates |   Not started|  10.07.2023 | 19.07.2023   |  |
+|  Target research| Not started  |  10.07.2023 | 19.07.2023 |   |
+| Evaluation  |  Not started | 10.07.2023  |  19.07.2023 |   |
 <br></br>
 
 <br></br>
