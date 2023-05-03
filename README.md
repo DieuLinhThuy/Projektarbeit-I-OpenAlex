@@ -97,20 +97,21 @@ The main ressoruce used is the API provided by OpenAlex.
 * https://docs.openalex.org/download-snapshot   
 * https://docs.openalex.org/download-snapshot/download-to-your-machine
 
-Extrahierung der Daten in einer Tabelle
+Extraction of the data in a table
 https://thkoelnde-my.sharepoint.com/:x:/g/personal/samaneh_ilchi_smail_th-koeln_de/ES2E0TSPY35Gq-1jtPe8EFYBAJIiaXDUq_g6RpEXrvRlWg?rtime=G2uAFdHz2kg
 
-Beispielprojekt von Neo4j
+Neo4j sample project
 http://my-neo4j-movies-app.herokuapp.com/
 
-Beispiel von unserer Vorstellung des Web Interfaces
+Example from our presentation of the web interface
 https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3
 
-
-Tools :
-Frontend : HTML; CSS; d3.js
-
-Backend: Flask (funktionalität der Webapp); Neo4j Desktop
+<br></br>
+### **Tools**
+ *Frontend:*  HTML;  CSS;  d3.js 
+ 
+ 
+ *Backend:* Flask (functionality of the webapp);  Neo4j Desktop
 
 <br></br>
 
@@ -118,27 +119,27 @@ Backend: Flask (funktionalität der Webapp); Neo4j Desktop
 ### Project planning
 
 
-| Aufgabenname:  |  Status | Start  |   Ziellende  | endgültiges Enddatum  |  Kommentar  |
+| Task name:  |  Status | Start  |   Target end | final end date  |  Comment  |
 |---|---|---|---|---|---|
-|  Projektkonzeption | In Bearbeitung  |  20.10.2022 |   |  	 | Aufgaben in Bearbeitung sehr viel recherchieren |
-|   |   | 04.01.2023  | 04.01.2023  |   | Gruppentreffen zur Konzipierung
-|   |   | 05.01.2023  | 07.01.2023  |   | Arbeit in Zweiergruppen
-|   |   | 09.01.2023  | 09.01.2023  |   | Zusammenfassung der Rechercheergebnisse
-|   |   | 10.01.2023  | 10.01.2023  |   | Zwischenergebnisse
-| Daten extrahiert von Open Alex | offen |  01.02.2023 |  01.04.2023 |   | Open-Alex ID , Titel , Releated Work , typ, Published date |
-| Daten mit NEO4J verbunden | offen |  10.03.2023 |  10.07.2023 |   | 1000 Daten hochgeladen |
-| Einteilung der Aufgaben| Vollständig|  10.03.2023 |  10.07.2023 |   | in 2 Gruppen aufgeteilt |
-| Gestaltug des Webinterface  | offen |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
-| HTML Seiten wurden erstellt  | offen |  10.03.2023 |  10.07.2023 |   | Single Page App |
-| Einarbeitung in FLASK  | offen |  14.03.2023 |  10.07.2023 |   
-| NEO4j mit FLASK verbunden  | offen |  17.03.2023 |  10.07.2023 |   
-| Einarbeitung in Neovis.js  | offen |  26.03.2023 |  offen |   
-|CSS Formatierung | offen |  14.03.2023 |  offen |  
-| Github repository erstellen  |  Vollständig |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
-| Texte |  in Bearbeitung  |   10.12.2022|   |   |  |
-| Projektplanung   |   |   |   |   |  wir arbeiten am anfang nur mit den ersten 100 Daten und später erweitern wir uns |
-| Zielsetzung  |  Vollständig | 10.12.2022  |  20.12.2022 |   | Smart ziele nennen|
-|  Reccourcenpalnung |Vollständig   |  10.12.2022 | 14.2022  |   |Virtuele Maschine für später|
+|  Project conception | In process  |  20.10.2022 |   |  	 | Tasks in progress a lot of research |
+|   |   | 04.01.2023  | 04.01.2023  |   | Group meeting for conception
+|   |   | 05.01.2023  | 07.01.2023  |   | Work in groups of two
+|   |   | 09.01.2023  | 09.01.2023  |   | Summary of the research results
+|   |   | 10.01.2023  | 10.01.2023  |   | Interim results
+| Data extracted from Open Alex | open |  01.02.2023 |  01.04.2023 |   | Open-Alex ID , Titel , Releated Work , typ, Published date |
+| Data connected with NEO4J | open |  10.03.2023 |  10.07.2023 |   | 1000 data uploaded |
+| Classification of tasks| Vollständig|  10.03.2023 |  10.07.2023 |   | in 2 Gruppen aufgeteilt |
+| Design of the web interface  | open |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
+| HTML pages were created  | open |  10.03.2023 |  10.07.2023 |   | Single Page App |
+| Familiarization with FLASK  | open |  14.03.2023 |  10.07.2023 |   
+| NEO4j connected with FLASK  | open |  17.03.2023 |  10.07.2023 |   
+| Familiarization with Neovis.js  | open |  26.03.2023 |  open |   
+|CSS formatting | open |  14.03.2023 |  open |  open
+| Create Github repository  |  Vollständig |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
+| Texts |  in Bearbeitung  |   10.12.2022|   |   |  |
+| Project planning   |   |   |   |   |  wir arbeiten am anfang nur mit den ersten 100 Daten und später erweitern wir uns |
+| Target  |  Vollständig | 10.12.2022  |  20.12.2022 |   | Smart ziele nennen|
+|  Resource Planning |Vollständig   |  10.12.2022 | 14.2022  |   |Virtuele Maschine für später|
 |  Projektablaufplan |   in Bearbeitung|  20.10.2022 |   |   ||
 |  Projektausführung |   |   |   |   ||
 |  Prognose |  Nicht gestartet | 10.07.2023  |  19.07.2023 |   |
@@ -150,37 +151,45 @@ Backend: Flask (funktionalität der Webapp); Neo4j Desktop
 
 <br></br>
 
-# Stand 21.12.2022:
-* API und Filterung das Gleiche
-* Aufteilung der Aufgaben 
+# Status 21.12.2022:
 
-* Related Works noch etwas zu oberflächlich beschrieben
-* https://docs.openalex.org/about-the-data/work#related_works
-* Zwischenbericht am 11.01.2023
+- API and filtering are the same
+
+- Tasks have been divided
+
+- Related Works are described too superficially
+
+https://docs.openalex.org/about-the-data/work#related_works
+
+- Interim report due on January 11th, 2023
+
+<br></br>
+
+# Status 19.04.2023:
+
+Authors have been extracted from the OpenAlex database
+a new CSV file was then imported into Neo4J
+
+*In Pycharm:*
+
+- HTML code has been created
+- Flask app
+Connected to Neo4J
+- Created and varied CSS
+
+*Current status:*
+
+- Web interface with a table that displays related works and their corresponding links to OpenAlex, authors, and a search bar where the desired work can be searched for
+Search function only works through title
+**Problem:** Title must be spelled correctly, otherwise no results will be displayed
+- Possible search suggestions
+
+*Goals:*
+- Display the graph next to the table
 
 <br></br>
 
-# Stand 19.04.2023:
-- Autoren bereits aus der OpenAlex Datenbank extrahiert
-- eine neue CSV Datei wurde anschließend in Neo4J importiert
-
-In Pycharm:
-* HTML Code erstellt
-* Flask App 
-  - Verbindung mit Neo4J hergestellt
-* CSS ertstellt und variiert
-
-Aktueller Stand:
-- Web Interface mit Tabelle, welche die related Works und die dazugehörigen Links zu OpenAlex anzeigt, Autoren und eine Suchleiste bei dem das gewünschte Werk gesucht wird
-- Suche funktioniert nur über Titel
-* Problem: Titel muss richtig geschrieben werden, da ansonsten keine Ergebnisse angezeigt werden
-  - mögliche Suchvorschläge 
-
-Vorhaben:
-- den Graphen neben der Tabelle anzeigen lassen 
-
-<br></br>
-# Stand 03.05.23
+# Status 03.05.2023:
 
 
 <br></br>
