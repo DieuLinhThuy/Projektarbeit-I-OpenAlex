@@ -33,11 +33,36 @@ Overall, OpenAlex and Neo4j are two different technologies designed for differen
 
 The OpenAlex catalog provides a good basis for finding scientific works via the API. In addition, related works to a specific scientific work are visible. **On this basis, the project goal arose to extract works related to scientific works from OpenAlex via the API and to present them visually in the graph database NEO4j**. For this purpose, a web interface is to be created, which represents the knowledge graph and illustrates it for the users of the web interface. Above all, students writing a scientific paper should have the possibility to find works on a topic that are connected to each other and in addition to that to find further connections and works. This should facilitate the research of the students in a target-oriented way and make it easier to explore the topics. An **ideal result is a Minimal Viable Product, where a Knowlegde Graph is mapped in the web interface.**
 
-
-
 ![image](https://user-images.githubusercontent.com/92934375/208732448-cff613fd-4cdd-48c2-97b5-cbe929fc9b42.png)
 
+<br></br>
+## **Our Webinterface prototype:**
 
+![image](https://user-images.githubusercontent.com/92687630/228575255-c87af089-54dd-4d2d-b871-ce470b1993fb.png)
+<br></br>
+## Getting started...
+
+**Preparation Phase**
+Project information is gathered and discussed, the project goal is defined, and initial agreements regarding project organization are made. The preparation phase ends with a project idea and the writing of SMART goals.
+
+**Planning Phase**
+Tasks are defined, a schedule is created, and resources and costs are identified. The planning phase ends with the start of the implementation phase.
+
+**Implementation Phase**
+The project is carried out while considering deadlines, resources, and costs. Regular status reports are created to steer the project.
+
+**Closing Phase**
+The project is completed, the work results are accepted, and the collected experiences are secured (lessons learned). The project is presented and summarized in a report.
+
+<br></br>
+### **Proceeding**
+1. Research
+2. Extracting data from Open Alex
+--> Analyzing this data
+3. Using Python to filter the data on Open Alex API, title, author, publication, type, and related works
+4. Getting familiar with NEO4J
+--> Creating graphs
+5. Building a web interface to display graphs and data
 
 <br></br>
 ### **"SMART"** Goals 
@@ -49,49 +74,21 @@ __T__ : 12.07.2023
 <br></br>
 
 <br></br>
-## Getting started...
+### **Project management**
 
-**Vorgehensweise**
-1. Recherche 
-2. Daten Extrahieren von Open Alex<br></br>
---> Diese Analysieren 
-3. Mithilfe von Python filtern wir die Daten auf Open Alex API, Titel , Autor , Publikation, Typ und Releted Works 
-4. Einarbeitung in NEO4J
--->Graphen erstellen 
-5. Webinterface bauen und Graphen und Daten darstellen
- 
-**Vorbereitungsphase**
-
-Die Projektinformationen werden gesammelt und erörtert, das Projektziel wird definiert und erste Vereinbarungen hinsichtlich der Projektorganisation werden getroffen. Die Vorbereitungsphase endet mit einer Projektidee und mit den verfassten SMART'en Ziele.
-
-**Planungsphase**
-
-Die Aufgaben werden festgelegt, ein Terminplan wird erstellt, Ressourcen und Kosten werden ermittelt. Am Ende der Planungsphase steht der Start der Umsetzungsphase.
+We decided to devide our Projct in two fields. Two of the project members took care of extracting, pre-processing and analyzing the Open AI dataset. They used Python to filter the data on Open Alex API, title, author, publication, type, and related works. The remaining two team members have worked intensively with the NEO4J database system to familiarize themselves with its functionality and the creation of graphs. In parallel, they have been working on the development of an appealing and intuitive user interface that allows the graphs and analyzed data to be displayed effectively. We are currently using a traditional approach but aim to switch to agile project management as soon as we expand our project goals.
+<br></br> 
 
 
-**Umsetzungsphase**
+### **Challenges/ Questions**
 
-Das Projekt wird unter Berücksichtigung von Terminen, Ressourcen und Kosten umgesetzt. Regelmäßige Sachstandsberichte werden zur Steuerung des Projekts erstellt.
-
-
-**Abschlussphase**
-
-Das Projekt wird abgeschlossen, die Arbeitsergebnisse werden abgenommen und die gesammelten Erfahrungen gesichert (Lessons Learned). Das Projekt wird vorgestellt und in einem Bericht zusammengefasst. 
-
-
-Wir arbeiten klassisch, wollen jedoch zum agilen Projektmanagement wechseln soald wir unsere Projektziel erweitern.
-
-![image](https://user-images.githubusercontent.com/92687630/228575255-c87af089-54dd-4d2d-b871-ce470b1993fb.png)
-
-**Probleme / Fragen**
-
-- Autoren sind vernestest in einer Liste. Müssen extrahiert werden 
-- Knoten punkte sind über die URL gegeben. Ist es so in Ordung ? **Vorteil**: man wird weiter geleitet auf die URL mit den Daten / **Nachteil**: es ist unklar bis man auf den Link klickt 
-- Wie man die Tabelle umänderen kann , da es mit Boostrap Schwierigkeit aufweist 
-- Mit hilfe des Java Script , wissen wir nicht wie wir weiter machen soll
-- Was erwarten sind von der Web app ?
-- Wie stellen sie die Visualisierung vor? 
-- Gibt es so welche ähnlichen Projekte an denene man sich orientieren kann. 
+* Authors are nested in a list, must be extracted 
+* Node points are given by the URL. Is it ok like this ?**Advantage:** you are redirected to the URL with the data / **Disadvantage:** it is unclear until you click on the link. 
+* How to change the table , because it has difficulty with Boostrap 
+* Working with java script , how to proceed ?
+* What do we expect from the web app ?
+* How do you imagine the visualization? 
+* Are there any similar projects to follow?
 
 
 
@@ -150,53 +147,7 @@ Frontend : HTML; CSS; d3.js
 
 Backend: Flask (funktionalität der Webapp); Neo4j Desktop
 
-
-
 <br></br>
-**Vorgehensweise**
-1. Recherche 
-2. Daten Extrahieren von Open Alex<br></br>
---> Diese Analysieren 
-3. Mithilfe von Python filtern wir die Daten auf Open Alex API, Titel , Autor , Publikation, Typ und Releted Works 
-4. Einarbeitung in NEO4J
--->Graphen erstellen 
-5. Webinterface bauen und Graphen und Daten darstellen
- 
-**Vorbereitungsphase**
-
-Die Projektinformationen werden gesammelt und erörtert, das Projektziel wird definiert und erste Vereinbarungen hinsichtlich der Projektorganisation werden getroffen. Die Vorbereitungsphase endet mit einer Projektidee und mit den verfassten SMART'en Ziele.
-
-**Planungsphase**
-
-Die Aufgaben werden festgelegt, ein Terminplan wird erstellt, Ressourcen und Kosten werden ermittelt. Am Ende der Planungsphase steht der Start der Umsetzungsphase.
-
-
-**Umsetzungsphase**
-
-Das Projekt wird unter Berücksichtigung von Terminen, Ressourcen und Kosten umgesetzt. Regelmäßige Sachstandsberichte werden zur Steuerung des Projekts erstellt.
-
-
-**Abschlussphase**
-
-Das Projekt wird abgeschlossen, die Arbeitsergebnisse werden abgenommen und die gesammelten Erfahrungen gesichert (Lessons Learned). Das Projekt wird vorgestellt und in einem Bericht zusammengefasst. 
-
-
-Wir arbeiten klassisch, wollen jedoch zum agilen Projektmanagement wechseln soald wir unsere Projektziel erweitern.
-
-![image](https://user-images.githubusercontent.com/92687630/228575255-c87af089-54dd-4d2d-b871-ce470b1993fb.png)
-
-**Probleme / Fragen**
-
-- Autoren sind vernestest in einer Liste. Müssen extrahiert werden 
-- Knoten punkte sind über die URL gegeben. Ist es so in Ordung ? **Vorteil**: man wird weiter geleitet auf die URL mit den Daten / **Nachteil**: es ist unklar bis man auf den Link klickt 
-- Wie man die Tabelle umänderen kann , da es mit Boostrap Schwierigkeit aufweist 
-- Mit hilfe des Java Script , wissen wir nicht wie wir weiter machen soll
-- Was erwarten sind von der Web app ?
-- Wie stellen sie die Visualisierung vor? 
-- Gibt es so welche ähnlichen Projekte an denene man sich orientieren kann. 
-
-
-
 <br></br>
 
 # Stand 21.12.2022:
@@ -227,8 +178,10 @@ Aktueller Stand:
 
 Vorhaben:
 - den Graphen neben der Tabelle anzeigen lassen 
- 
+
 <br></br>
+# Stand 03.05.23
+
 
 <br></br>
 ## FAQ
