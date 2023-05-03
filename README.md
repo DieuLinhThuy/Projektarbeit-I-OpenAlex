@@ -90,7 +90,29 @@ We decided to devide our Projct in two fields. Two of the project members took c
 * How do you imagine the visualization? 
 * Are there any similar projects to follow?
 
+### **Ressoruces**
+The main ressoruce used is the API provided by OpenAlex.
+* https://api.openalex.org/works
 
+* https://docs.openalex.org/download-snapshot   
+* https://docs.openalex.org/download-snapshot/download-to-your-machine
+
+Extrahierung der Daten in einer Tabelle
+https://thkoelnde-my.sharepoint.com/:x:/g/personal/samaneh_ilchi_smail_th-koeln_de/ES2E0TSPY35Gq-1jtPe8EFYBAJIiaXDUq_g6RpEXrvRlWg?rtime=G2uAFdHz2kg
+
+Beispielprojekt von Neo4j
+http://my-neo4j-movies-app.herokuapp.com/
+
+Beispiel von unserer Vorstellung des Web Interfaces
+https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3
+
+
+Tools :
+Frontend : HTML; CSS; d3.js
+
+Backend: Flask (funktionalität der Webapp); Neo4j Desktop
+
+<br></br>
 
 <br></br>
 ### Project planning
@@ -125,29 +147,7 @@ We decided to devide our Projct in two fields. Two of the project members took c
 |  Zielfoschung| Nicht gestartet  |  10.07.2023 | 19.07.2023 |   |
 | Auswertung  |  Nicht gestartet | 10.07.2023  |  19.07.2023 |   |
 <br></br>
-### Ressourcen
-Als Main Ressoruce wird hauptsächlich die API genutzt, die von OpenAlex bereit gestellt wird.
-* https://api.openalex.org/works
 
-* https://docs.openalex.org/download-snapshot   
-* https://docs.openalex.org/download-snapshot/download-to-your-machine
-
-Extrahierung der Daten in einer Tabelle
-https://thkoelnde-my.sharepoint.com/:x:/g/personal/samaneh_ilchi_smail_th-koeln_de/ES2E0TSPY35Gq-1jtPe8EFYBAJIiaXDUq_g6RpEXrvRlWg?rtime=G2uAFdHz2kg
-
-Beispielprojekt von Neo4j
-http://my-neo4j-movies-app.herokuapp.com/
-
-Beispiel von unserer Vorstellung des Web Interfaces
-https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3
-
-
-Tools :
-Frontend : HTML; CSS; d3.js
-
-Backend: Flask (funktionalität der Webapp); Neo4j Desktop
-
-<br></br>
 <br></br>
 
 # Stand 21.12.2022:
