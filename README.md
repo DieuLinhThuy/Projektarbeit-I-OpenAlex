@@ -190,7 +190,9 @@ Search function only works through title
 <br></br>
 
 # Status 17.05.2023:
-- Wir haben einen Grapfen 
+- Wir haben einen Grapfen, auf unserer Webinterface. 
+ - - ist aber noch nicht interactiv und zeigt kein Netzwerk an 
+- 
 
 <br></br>
 ## FAQ
