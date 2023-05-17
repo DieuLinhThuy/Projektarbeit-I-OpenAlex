@@ -192,7 +192,8 @@ Search function only works through title
 # Status 17.05.2023:
 - Wir haben einen Grapfen, auf unserer Webinterface. 
  - - ist aber noch nicht interactiv und zeigt kein Netzwerk an 
-- 
+-  lowercase versucht bei neo4j als auch bei python code zu nutzen
+-  
 
 <br></br>
 ## FAQ
