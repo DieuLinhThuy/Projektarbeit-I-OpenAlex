@@ -1,17 +1,20 @@
-from bokeh.io import show, output_file
-from bokeh.models import Plot, Range1d, MultiLine, Circle, HoverTool, BoxZoomTool, ResetTool
-from bokeh.models.graphs import from_networkx, NodesAndLinkedEdges, EdgesAndLinkedNodes
+from bokeh.models import Plot, Range1d, MultiLine, Circle, HoverTool, BoxZoomTool, ResetTool, TapTool, OpenURL, CustomJS
+from bokeh.plotting import show, output_file
+from bokeh.models.graphs import from_networkx
 from bokeh.palettes import Spectral4
 import networkx as nx
+
 
 def get_knowledge_graph(data):
     G = nx.Graph()
     edges = []
 
     for row in data:
-        G.add_edge(row['author_name'], row['related_work_title'])
+        G.add_edge(row['author_name'], row['related_work_title'])  # Kante zwischen Autor und Arbeit
+        G.add_node(row['related_work_title'])  # Knoten für Arbeit
         for related_work in row['related_works']:
-            edges.append((row['related_work_title'], related_work))
+            edges.append((row['related_work_title'], related_work))  # Kante zwischen Arbeit und verwandter Arbeit
+            G.add_node(related_work)  # Knoten für verwandte Arbeit
 
     G.add_edges_from(edges)
 
@@ -48,8 +51,28 @@ def get_knowledge_graph(data):
     node_and_edge_hover_tool = HoverTool(tooltips=[("Name", "@index")])
     plot.add_tools(BoxZoomTool(), ResetTool(), node_and_edge_hover_tool)
 
+    # Add TapTool to open URL or display information on node click
+    url = "https://openalex.org/W"  # Grundlegende URL ohne den Platzhalter für den Index
+
+    taptool = TapTool(callback=CustomJS(args=dict(url=url), code="""
+    const index = cb_data.source.selected.indices[0];  // Index des ausgewählten Knotens
+
+        if (index !== undefined) {
+            const node = cb_data.source.data.index[index];  // Wert des ausgewählten Knotens
+            const fullUrl = url + node;  // Vollständige URL mit dem Wert des ausgewählten Knotens
+
+            // Öffne die URL in einem neuen Tab
+            const win = window.open(fullUrl, '_blank');
+            win.focus();
+        }
+    """))
+
+    plot.add_tools(taptool)
     plot.renderers.append(node_renderer)
     plot.renderers.append(edge_renderer)
 
     output_file("knowledge_graph.html")
     show(plot)
+
+
+
