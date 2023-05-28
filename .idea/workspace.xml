@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15bf24a-d204-430f-93f8-965ded9cd796" name="Changes" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/scripts/templates/samaneh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/templates/samaneh_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/templates/samaneh_javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Projektarbeit-I-OpenAlex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projektarbeit-I-OpenAlex.iml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/scripts/static/css/test_formating.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Projektarbeit-I-OpenAlex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projektarbeit-I-OpenAlex.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_2023_16_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_2023_16_28__Changes_.xml" afterDir="false" />
->>>>>>> main
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/templates/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/templates/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/bokeh_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bokeh_graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-<<<<<<< HEAD
         <option value="JavaScript File" />
         <option value="HTML File" />
-=======
->>>>>>> main
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -59,23 +46,20 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="samaneh2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< HEAD
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "searchQuery": "scri"
+      &quot;searchQuery&quot;: &quot;scri&quot;
     }
   ],
-  "lastFilter": {
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
-=======
->>>>>>> main
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -92,26 +76,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/saman/PycharmProjects/Projektarbeit-I-OpenAlex",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/saman/dis22-2023/dis22-2023-wanille-querygpt/dis22-2023-wanille-querygpt/notebooks/test_querygpt.ipynb&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Projektarbeit-I-OpenAlex" />
@@ -149,7 +134,6 @@
       <workItem from="1678900992602" duration="1195000" />
       <workItem from="1679148388747" duration="3363000" />
       <workItem from="1679153010055" duration="628000" />
-<<<<<<< HEAD
       <workItem from="1679153668624" duration="6156000" />
       <workItem from="1679169762703" duration="2549000" />
       <workItem from="1679752596997" duration="29000" />
@@ -162,10 +146,12 @@
       <workItem from="1681141449002" duration="1568000" />
       <workItem from="1681284120250" duration="734000" />
       <workItem from="1681479970801" duration="12367000" />
-=======
-      <workItem from="1679153668624" duration="756000" />
-      <workItem from="1679945661899" duration="679000" />
->>>>>>> main
+      <workItem from="1684598358900" duration="6616000" />
+      <workItem from="1684655547709" duration="58000" />
+      <workItem from="1684767069175" duration="4198000" />
+      <workItem from="1684832131690" duration="4370000" />
+      <workItem from="1685185292713" duration="5170000" />
+      <workItem from="1685289213564" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="create new branch">
       <created>1679153475490</created>
@@ -204,13 +190,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create new branch" />
     <option name="LAST_COMMIT_MESSAGE" value="create new branch" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Projektarbeit_I_OpenAlex$app.coverage" NAME="app Coverage Results" MODIFIED="1681495105566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Projektarbeit_I_OpenAlex$app.coverage" NAME="app Coverage Results" MODIFIED="1684832681588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>

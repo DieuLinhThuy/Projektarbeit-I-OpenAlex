@@ -20,15 +20,23 @@ app = Flask(__name__)
 driver = GraphDatabase.driver(url, auth=(username, password))
 
 # Abfrage der Daten aus der Datenbank
+# Abfrage der Daten aus der Datenbank
 def get_data(work_title):
     with driver.session() as session:
         result = session.run("""
-            MATCH (w:Work {title: $work_title})<-[:AUTHORED]-(a:Author)-[:AUTHORED]->(relatedWork:Work)
+            MATCH (w:Work)
+            WHERE toLower(w.title) CONTAINS toLower($work_title)
+            MATCH (w)<-[:AUTHORED]-(a:Author)-[:AUTHORED]->(relatedWork:Work)
             OPTIONAL MATCH (relatedWork)<-[:RELATED_TO]-(r:RelatedWork)
             RETURN w.title AS work_title, a.name AS author_name, relatedWork.title AS related_work_title, collect(r.id) AS related_works
         """, {"work_title": work_title})
 
         return [dict(row) for row in result]
+
+
+
+
+
 
 # Flask-Route definieren
 @app.route('/')
