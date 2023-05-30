@@ -3,7 +3,6 @@ import networkx as nx
 from bokeh.embed import components
 from bokeh.models.graphs import from_networkx, NodesAndLinkedEdges, EdgesAndLinkedNodes
 from bokeh.models import Plot, Range1d, MultiLine, Circle, HoverTool
-from bokeh.models.graphs import from_networkx
 from bokeh.palettes import Spectral4
 from bokeh.plotting import figure, output_file, show
 from neo4j import GraphDatabase
@@ -20,7 +19,6 @@ app = Flask(__name__)
 driver = GraphDatabase.driver(url, auth=(username, password))
 
 # Abfrage der Daten aus der Datenbank
-# Abfrage der Daten aus der Datenbank
 def get_data(work_title):
     with driver.session() as session:
         result = session.run("""
@@ -33,23 +31,16 @@ def get_data(work_title):
 
         return [dict(row) for row in result]
 
-
-
-
-
-
 # Flask-Route definieren
 @app.route('/')
 def index():
     return render_template('index.html')
-
 
 # Flask-Route definieren
 @app.route('/works', methods=['POST'])
 def search_work():
     work_title = request.form['work_title']
     return redirect(f'/works/{work_title}')
-
 
 @app.route('/works/<string:work_title>')
 def show_related_works(work_title):
@@ -58,9 +49,12 @@ def show_related_works(work_title):
     # Erstellen eines Graphen mit Hilfe von NetworkX
     G = nx.Graph()
     for row in data:
-        G.add_node(row['author_name'])
-        G.add_node(row['related_work_title'])
+        G.add_node(row['author_name'], node_type='author')
+        G.add_node(row['related_work_title'], node_type='related_work')
+        G.add_nodes_from(row['related_works'], node_type='related_work')
         G.add_edge(row['author_name'], row['related_work_title'])
+        for related_work in row['related_works']:
+            G.add_edge(row['related_work_title'], related_work)
 
     # Erstellen des Bokeh-Plots
     plot = Plot(plot_width=800, plot_height=600, title='Knowledge Graph',
@@ -81,10 +75,16 @@ def show_related_works(work_title):
 
     plot.renderers.append(graph_renderer)
 
+    hover = HoverTool(tooltips=[
+        ("Author", "@index"),
+        ("Related Work Title", "@related_work_title")
+    ])
+    plot.add_tools(hover)
+
     script, div = components(plot)
 
     return render_template('table.html', data=data, script=script, div=div, target_id='knowledge-graph')
 
 
 if __name__ == "__main__":
-    app.run(port=8080)
+    app.run(port=8080, debug=True)

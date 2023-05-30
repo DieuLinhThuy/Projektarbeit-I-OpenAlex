@@ -1,0 +1,15 @@
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table-container table {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.table-container .col-md-6 {
+    flex: 1 1 0;
+    max-width: 100%;
+}
