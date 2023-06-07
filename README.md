@@ -141,11 +141,6 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 | Target  |  complete | 10.12.2022  |  20.12.2022 |   | Name SMART goals|
 |  Resource Planning |complete   |  10.12.2022 | 14.2022  |   |Virtual machine for later|
 |  Project schedule |   in progress |  20.10.2022 |   |   ||
-|  Project execution |   |   |   |   ||
-|  Forecast |  Not started | 10.07.2023  |  19.07.2023 |   |
-| Status  |  Not started |   10.07.2023|   19.07.2023 |  |
-|  Updates |   Not started|  10.07.2023 | 19.07.2023   |  |
-|  Target research| Not started  |  10.07.2023 | 19.07.2023 |   |
 | Evaluation  |  Not started | 10.07.2023  |  19.07.2023 |   |
 <br></br>
 
@@ -188,12 +183,20 @@ Search function only works through title
 - Display the graph next to the table
 
 <br></br>
-
+ 
 # Status 17.05.2023:
-- Wir haben einen Grapfen, auf unserer Webinterface. 
+- Wir haben einen Graphen, auf unserer Webinterface. 
  - - ist aber noch nicht interactiv und zeigt kein Netzwerk an 
 -  lowercase versucht bei neo4j als auch bei python code zu nutzen
--  
+
+# Staus 07.06.2023:
+- repository updated
+- Graph is active
+- - notes are interactive
+- case sensitive worked
+- 
+
+![image](https://github.com/DieuLinhThuy/Projektarbeit-I-OpenAlex/assets/92934375/8a2edf96-38d3-40e5-a35f-bea783522bff)
 
 <br></br>
 ## FAQ
