@@ -126,15 +126,15 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 |   |   | 05.01.2023  | 07.01.2023  |  | Work in groups of two
 |   |   | 09.01.2023  | 09.01.2023  |   | Summary of the research results
 |   |   | 10.01.2023  | 10.01.2023  |   | Interim results
-| Data extracted from Open Alex | open |  01.02.2023 |  01.04.2023 | 01.04.2023  | Open-Alex ID , Titel , Releated Work , typ, Published date |
+| Data extracted from Open Alex | open |  01.02.2023 |  01.04.2023 | 01.04.2023  | Open-Alex ID , Titel , Releated Work , type, Published date |
 | Data connected with NEO4J | open |  10.03.2023 |  19.04.2023 | 10.04.2023 | 1000 data uploaded |
 | Classification of tasks| complete|  10.03.2023 |  19.04.2023 | 10.04.2023 | in 2 Gruppen aufgeteilt |
 | Design of the web interface  | open |  01.07.2023 |  19.04.2023 | 10.04.2023 | Knowledge Graphen im Webinterface darstellen |
 | HTML pages were created  | open |  10.03.2023 |  19.04.2023 | 10.04.2023 | Single Page App |
-| Familiarization with FLASK  | open |  14.03.2023 |  10.04.2023 |   
-| NEO4j connected with FLASK  | open |  17.03.2023 |  19.04.2023 |  
-| Familiarization with Neovis.js  | open |  26.03.2023 | 10.04.2023 |    
-|CSS formatting | open |  14.03.2023 |  open | 10.04.2023
+| Familiarization with FLASK  | open |  14.03.2023 |  10.04.2023 | 20.04.2022 |
+| NEO4j connected with FLASK  | open |  17.03.2023 |  19.04.2023 |  20.04.2022 |
+| Familiarization with Neovis.js  | open |  26.03.2023 | 10.04.2023 |   25.04.2022 | 
+|CSS formatting | open |  14.03.2023 |  open | 10.04.2023 |
 | Create Github repository  |  Complete |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
 | Texts |  in progress  |   10.12.2022|   |  20.06.2023  |   |
 | Project planning   |   |   |   |   |  we work at the beginning only with the first 100 data and later we expand |
