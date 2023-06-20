@@ -37,8 +37,8 @@ The OpenAlex catalog provides a good basis for finding scientific works via the 
 
 <br></br>
 ## **Our Webinterface prototype:**
+<img width="544" alt="image" src="https://github.com/DieuLinhThuy/Projektarbeit-I-OpenAlex/assets/92934375/1265b49f-ee3a-489a-b8b5-a5fa2530644c">
 
-![image](https://user-images.githubusercontent.com/92687630/228575255-c87af089-54dd-4d2d-b871-ce470b1993fb.png)
 <br></br>
 ## Getting started...
 
