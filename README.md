@@ -121,27 +121,27 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 
 | Task name:  |  Status | Start  |   Target end | final end date  |  Comment  |
 |---|---|---|---|---|---|
-|  Project conception | In process  |  20.10.2022 |   |  	 | Tasks in progress a lot of research |
-|   |   | 04.01.2023  | 04.01.2023  |   | Group meeting for conception
-|   |   | 05.01.2023  | 07.01.2023  |   | Work in groups of two
+|  Project conception | In process  |  20.10.2022 |   |  21.06.2023	 | Tasks in progress a lot of research |
+|   |   | 04.01.2023  | 04.01.2023  | | Group meeting for conception
+|   |   | 05.01.2023  | 07.01.2023  |  | Work in groups of two
 |   |   | 09.01.2023  | 09.01.2023  |   | Summary of the research results
 |   |   | 10.01.2023  | 10.01.2023  |   | Interim results
-| Data extracted from Open Alex | open |  01.02.2023 |  01.04.2023 |   | Open-Alex ID , Titel , Releated Work , typ, Published date |
-| Data connected with NEO4J | open |  10.03.2023 |  10.07.2023 |   | 1000 data uploaded |
-| Classification of tasks| Vollständig|  10.03.2023 |  10.07.2023 |   | in 2 Gruppen aufgeteilt |
-| Design of the web interface  | open |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
-| HTML pages were created  | open |  10.03.2023 |  10.07.2023 |   | Single Page App |
-| Familiarization with FLASK  | open |  14.03.2023 |  10.07.2023 |   
-| NEO4j connected with FLASK  | open |  17.03.2023 |  10.07.2023 |   
-| Familiarization with Neovis.js  | open |  26.03.2023 |  open |   
-|CSS formatting | open |  14.03.2023 |  open |  open
+| Data extracted from Open Alex | open |  01.02.2023 |  01.04.2023 | 01.04.2023  | Open-Alex ID , Titel , Releated Work , typ, Published date |
+| Data connected with NEO4J | open |  10.03.2023 |  19.04.2023 | 10.04.2023 | 1000 data uploaded |
+| Classification of tasks| complete|  10.03.2023 |  19.04.2023 | 10.04.2023 | in 2 Gruppen aufgeteilt |
+| Design of the web interface  | open |  01.07.2023 |  19.04.2023 | 10.04.2023 | Knowledge Graphen im Webinterface darstellen |
+| HTML pages were created  | open |  10.03.2023 |  19.04.2023 | 10.04.2023 | Single Page App |
+| Familiarization with FLASK  | open |  14.03.2023 |  10.04.2023 |   
+| NEO4j connected with FLASK  | open |  17.03.2023 |  19.04.2023 |  
+| Familiarization with Neovis.js  | open |  26.03.2023 | 10.04.2023 |    
+|CSS formatting | open |  14.03.2023 |  open | 10.04.2023
 | Create Github repository  |  Complete |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
-| Texts |  in progress  |   10.12.2022|   |   |  |
+| Texts |  in progress  |   10.12.2022|   |  20.06.2023  |   |
 | Project planning   |   |   |   |   |  we work at the beginning only with the first 100 data and later we expand |
-| Target  |  complete | 10.12.2022  |  20.12.2022 |   | Name SMART goals|
+| Target  |  complete | 10.12.2022  |  20.12.2022 | 20.12.2022 | Name SMART goals|
 |  Resource Planning |complete   |  10.12.2022 | 14.2022  |   |Virtual machine for later|
-|  Project schedule |   in progress |  20.10.2022 |   |   ||
-| Evaluation  |  Not started | 10.07.2023  |  19.07.2023 |   |
+|  Project schedule |   in progress |  20.10.2022 |   |  21.06.2023  ||
+| Evaluation  |  Not started | 10.06.2023  |  19.06.2023 | 20.06.2023|
 <br></br>
 
 <br></br>
@@ -185,17 +185,16 @@ Search function only works through title
 <br></br>
  
 # Status 17.05.2023:
-- Wir haben einen Graphen, auf unserer Webinterface. 
- - - ist aber noch nicht interactiv und zeigt kein Netzwerk an 
--  lowercase versucht bei neo4j als auch bei python code zu nutzen
+- We have a graph, on our web interface. 
+  - but is not yet interactive and does not show a network 
+- tried to use lowercase with neo4j as well as with python code
 
 # Staus 07.06.2023:
 - repository updated
 - Graph is active
-- - notes are interactive
+  - notes are interactive
 - case sensitive worked
-- 
-
+  
 ![image](https://github.com/DieuLinhThuy/Projektarbeit-I-OpenAlex/assets/92934375/8a2edf96-38d3-40e5-a35f-bea783522bff)
 
 <br></br>
