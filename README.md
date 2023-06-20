@@ -33,7 +33,7 @@ Overall, OpenAlex and Neo4j are two different technologies designed for differen
 
 The OpenAlex catalog provides a good basis for finding scientific works via the API. In addition, related works to a specific scientific work are visible. **On this basis, the project goal arose to extract works related to scientific works from OpenAlex via the API and to present them visually in the graph database NEO4j**. For this purpose, a web interface is to be created, which represents the knowledge graph and illustrates it for the users of the web interface. Above all, students writing a scientific paper should have the possibility to find works on a topic that are connected to each other and in addition to that to find further connections and works. This should facilitate the research of the students in a target-oriented way and make it easier to explore the topics. An **ideal result is a Minimal Viable Product, where a Knowlegde Graph is mapped in the web interface.**
 
-![image](https://user-images.githubusercontent.com/92934375/208732448-cff613fd-4cdd-48c2-97b5-cbe929fc9b42.png)
+<img width="306" alt="image" src="https://github.com/DieuLinhThuy/Projektarbeit-I-OpenAlex/assets/92934375/88c2fb36-a2fd-45f1-8357-a1fd5bc68de6">
 
 <br></br>
 ## **Our Webinterface prototype:**
