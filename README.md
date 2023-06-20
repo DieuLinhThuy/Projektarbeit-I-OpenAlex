@@ -108,7 +108,7 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 
 <br></br>
 ### **Tools**
- *Frontend:*  HTML;  CSS;  d3.js 
+ *Frontend:*  HTML;  CSS;  Bokeh , network x
  
  
  *Backend:* Flask (functionality of the webapp);  Neo4j Desktop
