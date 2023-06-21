@@ -33,12 +33,11 @@ Overall, OpenAlex and Neo4j are two different technologies designed for differen
 
 The OpenAlex catalog provides a good basis for finding scientific works via the API. In addition, related works to a specific scientific work are visible. **On this basis, the project goal arose to extract works related to scientific works from OpenAlex via the API and to present them visually in the graph database NEO4j**. For this purpose, a web interface is to be created, which represents the knowledge graph and illustrates it for the users of the web interface. Above all, students writing a scientific paper should have the possibility to find works on a topic that are connected to each other and in addition to that to find further connections and works. This should facilitate the research of the students in a target-oriented way and make it easier to explore the topics. An **ideal result is a Minimal Viable Product, where a Knowlegde Graph is mapped in the web interface.**
 
-![image](https://user-images.githubusercontent.com/92934375/208732448-cff613fd-4cdd-48c2-97b5-cbe929fc9b42.png)
 
 <br></br>
 ## **Our Webinterface prototype:**
+<img width="544" alt="image" src="https://github.com/DieuLinhThuy/Projektarbeit-I-OpenAlex/assets/92934375/1265b49f-ee3a-489a-b8b5-a5fa2530644c">
 
-![image](https://user-images.githubusercontent.com/92687630/228575255-c87af089-54dd-4d2d-b871-ce470b1993fb.png)
 <br></br>
 ## Getting started...
 
@@ -70,8 +69,17 @@ The project is completed, the work results are accepted, and the collected exper
 __M__ : Initially, a small subset of 100 data will be used to visually represent it in a Knowledge Graph. If this is successful, this graph will be extended. The goal is to present a visible result in the web interface at the end.<br></br>
 __A__ : Training in new systems<br></br>
 __R__ : For scientists or students who are writing or looking for a paper to find it quickly and accurately. <br></br>
-__T__ : 12.07.2023
+__T__ : 20.06.2023
 <br></br>
+
+**Did we achieve our SMART goals?**
+
+**SMART goal achievement**: We were able to successfully achieve our specific goals by accomplishing the desired outcome, which was to create a webpage featuring authors and their relationships.
+**Dataset**: We have a dataset of 100x10 data points that can be visualized in a knowledge graph.
+**Web interface**: The final web interface is visually appealing and user-friendly, catering to the needs of students.
+
+Overall, we can conclude that our SMART goals were effectively met. We successfully developed a webpage with author information and relationships, utilized a dataset in a knowledge graph format, and created a web interface suitable for student
+
 
 <br></br>
 ### **Project management**
@@ -80,7 +88,7 @@ We decided to devide our Projct in two fields. Two of the project members took c
 <br></br> 
 
 
-### **Challenges/ Questions**
+### **Challenges/ guidelines**
 
 * Authors are nested in a list, must be extracted 
 * Node points are given by the URL. Is it ok like this ?**Advantage:** you are redirected to the URL with the data / **Disadvantage:** it is unclear until you click on the link. 
@@ -90,7 +98,7 @@ We decided to devide our Projct in two fields. Two of the project members took c
 * How do you imagine the visualization? 
 * Are there any similar projects to follow?
 
-### **Ressoruces**
+### **Ressources**
 The main ressoruce used is the API provided by OpenAlex.
 * https://api.openalex.org/works
 
@@ -108,7 +116,7 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 
 <br></br>
 ### **Tools**
- *Frontend:*  HTML;  CSS;  d3.js 
+ *Frontend:*  HTML;  CSS;  Bokeh , network x
  
  
  *Backend:* Flask (functionality of the webapp);  Neo4j Desktop
@@ -121,38 +129,38 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 
 | Task name:  |  Status | Start  |   Target end | final end date  |  Comment  |
 |---|---|---|---|---|---|
-|  Project conception | In process  |  20.10.2022 |   |  	 | Tasks in progress a lot of research |
-|   |   | 04.01.2023  | 04.01.2023  |   | Group meeting for conception
-|   |   | 05.01.2023  | 07.01.2023  |   | Work in groups of two
+|  Project conception | In process  |  20.10.2022 |   |  21.06.2023	 | Tasks in progress a lot of research |
+|   |   | 04.01.2023  | 04.01.2023  | | Group meeting for conception
+|   |   | 05.01.2023  | 07.01.2023  |  | Work in groups of two
 |   |   | 09.01.2023  | 09.01.2023  |   | Summary of the research results
 |   |   | 10.01.2023  | 10.01.2023  |   | Interim results
-| Data extracted from Open Alex | open |  01.02.2023 |  01.04.2023 |   | Open-Alex ID , Titel , Releated Work , typ, Published date |
-| Data connected with NEO4J | open |  10.03.2023 |  10.07.2023 |   | 1000 data uploaded |
-| Classification of tasks| Vollständig|  10.03.2023 |  10.07.2023 |   | in 2 Gruppen aufgeteilt |
-| Design of the web interface  | open |  01.07.2023 |  10.07.2023 |   | Knowledge Graphen im Webinterface darstellen |
-| HTML pages were created  | open |  10.03.2023 |  10.07.2023 |   | Single Page App |
-| Familiarization with FLASK  | open |  14.03.2023 |  10.07.2023 |   
-| NEO4j connected with FLASK  | open |  17.03.2023 |  10.07.2023 |   
-| Familiarization with Neovis.js  | open |  26.03.2023 |  open |   
-|CSS formatting | open |  14.03.2023 |  open |  open
 | Create Github repository  |  Complete |  10.12.2022 |  14.12.2022 |  14.12.2022 |  |
-| Texts |  in progress  |   10.12.2022|   |   |  |
+| Texts |  in progress  |   10.12.2022|   |  20.06.2023  |   |
 | Project planning   |   |   |   |   |  we work at the beginning only with the first 100 data and later we expand |
-| Target  |  complete | 10.12.2022  |  20.12.2022 |   | Name SMART goals|
+| Target  |  complete | 10.12.2022  |  20.12.2022 | 20.12.2022 | Name SMART goals|
 |  Resource Planning |complete   |  10.12.2022 | 14.2022  |   |Virtual machine for later|
-|  Project schedule |   in progress |  20.10.2022 |   |   ||
-|  Project execution |   |   |   |   ||
-|  Forecast |  Not started | 10.07.2023  |  19.07.2023 |   |
-| Status  |  Not started |   10.07.2023|   19.07.2023 |  |
-|  Updates |   Not started|  10.07.2023 | 19.07.2023   |  |
-|  Target research| Not started  |  10.07.2023 | 19.07.2023 |   |
-| Evaluation  |  Not started | 10.07.2023  |  19.07.2023 |   |
+|  Project schedule |   in progress |  20.10.2022 |   |  21.06.2023  ||
+| Evaluation  |  complete | 10.06.2023  |  19.06.2023 | 20.06.2023|
+| Data extracted from Open Alex | complete |  01.02.2023 |  01.04.2023 | 01.04.2023  | Open-Alex ID , Titel , Releated Work , type, Published date, author, theme |
+| Data connected with NEO4J | complete |  10.03.2023 |  19.04.2023 | 10.04.2023 | 1000 data uploaded |
+| Classification of tasks| complete|  10.03.2023 |  19.04.2023 | 10.04.2023 | in 2 Gruppen aufgeteilt |
+| Design of the web interface  | open |  01.07.2023 |  19.04.2023 | 10.04.2023 | Displaying Knowledge Graph in the Web Interface , Improving Aesthetics  |
+| HTML pages were created  | complete |  10.03.2023 |  19.04.2023 | 10.04.2023 | Single Page App |
+| Familiarization with FLASK  | complete |  14.03.2023 |  10.04.2023 | 20.04.2022 |
+| NEO4j connected with FLASK  | complete |  17.03.2023 |  19.04.2023 |  20.04.2022 |
+| Familiarization with Neovis.js  | incomplete |  26.03.2023 | 10.04.2023 |   25.04.2022 | idea was discarded |
+|Familiarization with bokeh| complete |  20.04.2023 |  05.05.2023 |  20.05.2022 |
+|Familiarization with network x|complete |  17.03.2023 |  19.04.2023 |  20.04.2022 |
+|CSS formatting | open |  14.03.2023 |  open | 10.04.2023 |
+|add Graph |complete |  17.04.2023 |  19.04.2023 |  10.06.2022 |
+|web interface optimization | open | 25.03.2023 |  19.04.2023 |  25.06.2022 | there is still room for improvement|
+
 <br></br>
 
 <br></br>
 
 # Status 21.12.2022:
-
+ *Current status:*
 - API and filtering are the same
 
 - Tasks have been divided
@@ -181,19 +189,47 @@ Connected to Neo4J
 
 - Web interface with a table that displays related works and their corresponding links to OpenAlex, authors, and a search bar where the desired work can be searched for
 Search function only works through title
+- It is only searched in one column
 **Problem:** Title must be spelled correctly, otherwise no results will be displayed
 - Possible search suggestions
 
-*Goals:*
+*next Step:*
 - Display the graph next to the table
+- Search: deep learning
+- Improve search: do not distinguish between uppercase and lowercase letters Not only by title, but also by subject
+- Fuzzy search recommended, Main Subject is the name of the property,
+- Make the page fuller, graphs should be visible, build graphs into the website
 
 <br></br>
-
+ 
 # Status 17.05.2023:
-- Wir haben einen Grapfen, auf unserer Webinterface. 
- - - ist aber noch nicht interactiv und zeigt kein Netzwerk an 
--  lowercase versucht bei neo4j als auch bei python code zu nutzen
--  
+*Current status:*
+- We have a graph, on our web interface. 
+  - but is not yet interactive and does not show a network 
+- tried to use lowercase with neo4j as well as with python code
+
+*next step*
+- Beautify web interface & continue working on the Knowledge Graph
+
+# Status 07.06.2023:
+*curent status*
+- repository updated
+- Graph is active
+  - notes are interactive
+- case sensitive worked
+
+  
+![image](https://github.com/DieuLinhThuy/Projektarbeit-I-OpenAlex/assets/92687630/36776f6b-b5ad-4c04-ac10-15bad127e565)
+
+
+# Conclusion #
+- First independent project spanning multiple semesters.
+- Improved and applied project management skills in practice.
+- Acquired new knowledge throughout the project.
+- Occasionally challenging and time-consuming.
+- Nonetheless, enjoyable and fulfilling.
+- Achieved a sense of accomplishment.
+- Demonstrated effective teamwork.
 
 <br></br>
 ## FAQ
