@@ -53,15 +53,6 @@ The project is carried out while considering deadlines, resources, and costs. Re
 **Closing Phase**
 The project is completed, the work results are accepted, and the collected experiences are secured (lessons learned). The project is presented and summarized in a report.
 
-<br></br>
-### **Proceeding**
-1. Research
-2. Extracting data from Open Alex
---> Analyzing this data
-3. Using Python to filter the data on Open Alex API, title, author, publication, type, and related works
-4. Getting familiar with NEO4J
---> Creating graphs
-5. Building a web interface to display graphs and data
 
 <br></br>
 ### **"SMART"** Goals 
@@ -82,48 +73,32 @@ Overall, we can conclude that our SMART goals were effectively met. We successfu
 
 
 <br></br>
-### **Project management**
-
-We decided to devide our Projct in two fields. Two of the project members took care of extracting, pre-processing and analyzing the Open AI dataset. They used Python to filter the data on Open Alex API, title, author, publication, type, and related works. The remaining two team members have worked intensively with the NEO4J database system to familiarize themselves with its functionality and the creation of graphs. In parallel, they have been working on the development of an appealing and intuitive user interface that allows the graphs and analyzed data to be displayed effectively. We are currently using a traditional approach but aim to switch to agile project management as soon as we expand our project goals.
-<br></br> 
 
 
-### **Challenges/ guidelines**
+### **Guidelines**
 
-* Authors are nested in a list, must be extracted 
-* Node points are given by the URL. Is it ok like this ?**Advantage:** you are redirected to the URL with the data / **Disadvantage:** it is unclear until you click on the link. 
-* How to change the table , because it has difficulty with Boostrap 
 * Working with java script , how to proceed ?
 * What do we expect from the web app ?
 * How do you imagine the visualization? 
 * Are there any similar projects to follow?
 
-### **Ressources**
-The main ressoruce used is the API provided by OpenAlex.
-* https://api.openalex.org/works
+ <br></br>
 
-* https://docs.openalex.org/download-snapshot   
-* https://docs.openalex.org/download-snapshot/download-to-your-machine
-
-Extraction of the data in a table
-https://thkoelnde-my.sharepoint.com/:x:/g/personal/samaneh_ilchi_smail_th-koeln_de/ES2E0TSPY35Gq-1jtPe8EFYBAJIiaXDUq_g6RpEXrvRlWg?rtime=G2uAFdHz2kg
-
-Neo4j sample project
-http://my-neo4j-movies-app.herokuapp.com/
-
-Example from our presentation of the web interface
-https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3
-
-<br></br>
-### **Tools**
- *Frontend:*  HTML;  CSS;  Bokeh , network x
- 
- 
- *Backend:* Flask (functionality of the webapp);  Neo4j Desktop
-
+### **Proceeding**
+1. Research
+2. Extracting data from Open Alex
+--> Analyzing this data
+3. Using Python to filter the data on Open Alex API, title, author, publication, type, and related works
+4. Getting familiar with NEO4J
+--> Creating graphs
+5. Building a web interface to display graphs and data
 <br></br>
 
-<br></br>
+### **Project management**
+
+We decided to devide our Projct in two fields. Two of the project members took care of extracting, pre-processing and analyzing the Open AI dataset. They used Python to filter the data on Open Alex API, title, author, publication, type, and related works. The remaining two team members have worked intensively with the NEO4J database system to familiarize themselves with its functionality and the creation of graphs. In parallel, they have been working on the development of an appealing and intuitive user interface that allows the graphs and analyzed data to be displayed effectively. We are currently using a traditional approach but aim to switch to agile project management as soon as we expand our project goals.
+<br></br> 
+
 ### Project planning
 
 
@@ -158,7 +133,31 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 <br></br>
 
 <br></br>
+### **Ressources**
+The main ressoruce used is the API provided by OpenAlex.
+* https://api.openalex.org/works
 
+* https://docs.openalex.org/download-snapshot   
+* https://docs.openalex.org/download-snapshot/download-to-your-machine
+
+Extraction of the data in a table
+https://thkoelnde-my.sharepoint.com/:x:/g/personal/samaneh_ilchi_smail_th-koeln_de/ES2E0TSPY35Gq-1jtPe8EFYBAJIiaXDUq_g6RpEXrvRlWg?rtime=G2uAFdHz2kg
+
+Neo4j sample project
+http://my-neo4j-movies-app.herokuapp.com/
+
+Example from our presentation of the web interface
+https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3
+
+<br></br>
+### **Tools**
+ *Frontend:*  HTML;  CSS;  Bokeh , network x
+ 
+ 
+ *Backend:* Flask (functionality of the webapp);  Neo4j Desktop
+ 
+
+<br></br>
 # Status 21.12.2022:
  *Current status:*
 - API and filtering are the same
