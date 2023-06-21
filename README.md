@@ -69,7 +69,6 @@ __T__ : 20.06.2023
 **Dataset**: We have a dataset of 100x10 data points that can be visualized in a knowledge graph.
 **Web interface**: The final web interface is visually appealing and user-friendly, catering to the needs of students.
 
-Overall, we can conclude that our SMART goals were effectively met. We successfully developed a webpage with author information and relationships, utilized a dataset in a knowledge graph format, and created a web interface suitable for student
 
 
 <br></br>
@@ -229,6 +228,7 @@ Search function only works through title
 - Nonetheless, enjoyable and fulfilling.
 - Achieved a sense of accomplishment.
 - Demonstrated effective teamwork.
+- Overall, we can conclude that our SMART goals were effectively met.
 
 <br></br>
 ## FAQ
