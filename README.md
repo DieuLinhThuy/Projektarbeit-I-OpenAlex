@@ -69,7 +69,7 @@ The project is completed, the work results are accepted, and the collected exper
 __M__ : Initially, a small subset of 100 data will be used to visually represent it in a Knowledge Graph. If this is successful, this graph will be extended. The goal is to present a visible result in the web interface at the end.<br></br>
 __A__ : Training in new systems<br></br>
 __R__ : For scientists or students who are writing or looking for a paper to find it quickly and accurately. <br></br>
-__T__ : 12.07.2023
+__T__ : 20.06.2023
 <br></br>
 
 **Did we achieve our SMART goals?**
