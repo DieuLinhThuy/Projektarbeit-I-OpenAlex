@@ -30,6 +30,7 @@ def get_data(work_title):
         """, {"work_title": work_title})
 
         return [dict(row) for row in result]
+    
 
 # Flask-Route definieren
 @app.route('/')
@@ -42,11 +43,8 @@ def search_work():
     work_title = request.form['work_title']
     return redirect(f'/works/{work_title}')
 
-@app.route('/works/<string:work_title>')
-def show_related_works(work_title):
-    data = get_data(work_title)
-
-    # Erstellen eines Graphen mit Hilfe von NetworkX
+# Erstellen des NetworkX-Graphen
+def create_networkx_graph(data):
     G = nx.Graph()
     for row in data:
         G.add_node(row['author_name'], node_type='author')
@@ -55,10 +53,12 @@ def show_related_works(work_title):
         G.add_edge(row['author_name'], row['related_work_title'])
         for related_work in row['related_works']:
             G.add_edge(row['related_work_title'], related_work)
+    return G
 
-    # Erstellen des Bokeh-Plots
+# Erstellen des Bokeh Plots
+def create_bokeh_plot(G):
     plot = Plot(plot_width=800, plot_height=600, title='Knowledge Graph',
-            x_range=Range1d(-1.1, 1.1), y_range=Range1d(-1.1, 1.1))
+                x_range=Range1d(-1.1, 1.1), y_range=Range1d(-1.1, 1.1))
 
     graph_renderer = from_networkx(G, nx.spring_layout, scale=1, center=(0, 0))
 
@@ -83,7 +83,22 @@ def show_related_works(work_title):
 
     script, div = components(plot)
 
-    return render_template('table.html', data=data, script=script, div=div, target_id='knowledge-graph')
+    return script, div
+
+@app.route('/works/<string:work_title>')
+def show_related_works(work_title):
+    try:
+        data = get_data(work_title)
+
+        # Erstellen eines Graphen mit Hilfe von NetworkX
+        G = create_networkx_graph(data)
+
+        # Erstellen des Bokeh-Plots
+        script, div = create_bokeh_plot(G)
+
+        return render_template('table.html', data=data, script=script, div=div, target_id='knowledge-graph')
+    except Exception as e:
+        return render_template('error.html', error=str(e))
 
 
 if __name__ == "__main__":
