@@ -219,7 +219,8 @@ Search function only works through title
 - case sensitive worked
 
   
-![image](https://github.com/DieuLinhThuy/Projektarbeit-I-OpenAlex/assets/92934375/8a2edf96-38d3-40e5-a35f-bea783522bff)
+![image](https://github.com/DieuLinhThuy/Projektarbeit-I-OpenAlex/assets/92687630/36776f6b-b5ad-4c04-ac10-15bad127e565)
+
 
 # Conclusion #
 - First independent project spanning multiple semesters.
