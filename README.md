@@ -98,7 +98,7 @@ We decided to devide our Projct in two fields. Two of the project members took c
 * How do you imagine the visualization? 
 * Are there any similar projects to follow?
 
-### **Ressoruces**
+### **Ressources**
 The main ressoruce used is the API provided by OpenAlex.
 * https://api.openalex.org/works
 
@@ -211,7 +211,7 @@ Search function only works through title
 *next step*
 - Beautify web interface & continue working on the Knowledge Graph
 
-# Staus 07.06.2023:
+# Status 07.06.2023:
 *curent status*
 - repository updated
 - Graph is active
