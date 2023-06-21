@@ -153,7 +153,7 @@ https://www.figma.com/proto/CMJOwLh9AESNhkzPg6KXir/Untitled?node-id=0%3A3&scalin
 |Familiarization with network x|complete |  17.03.2023 |  19.04.2023 |  20.04.2022 |
 |CSS formatting | open |  14.03.2023 |  open | 10.04.2023 |
 |add Graph |complete |  17.04.2023 |  19.04.2023 |  10.06.2022 |
-|web interface optimization | open | 25.03.2023 |  19.04.2023 |  25.06.2022 | there is still room for improvement|
+|web interface optimization | open | 25.03.2023 | - |  25.06.2022 | there is still room for improvement|
 
 <br></br>
 
