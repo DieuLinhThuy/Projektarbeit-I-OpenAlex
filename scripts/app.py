@@ -8,95 +8,46 @@ from bokeh.plotting import figure, output_file, show
 from neo4j import GraphDatabase
 from flask import Flask, render_template, request, redirect
 from dotenv import load_dotenv
+
+from graph import create_networkx_graph, create_bokeh_plot
+from database import get_data
+
 load_dotenv()
 
+# get access to database
 password = os.environ.get("DATABASE_PASSWORD")
 username = os.environ.get("DATABASE_USERNAME")
 url = os.getenv("DATABASE_URL")
 app = Flask(__name__)
 
-# Verbindung zur Neo4j-Datenbank herstellen
+# create connection to Neo4j database
 driver = GraphDatabase.driver(url, auth=(username, password))
 
-# Abfrage der Daten aus der Datenbank
-def get_data(work_title):
-    with driver.session() as session:
-        result = session.run("""
-            MATCH (w:Work)
-            WHERE toLower(w.title) CONTAINS toLower($work_title)
-            MATCH (w)<-[:AUTHORED]-(a:Author)-[:AUTHORED]->(relatedWork:Work)
-            OPTIONAL MATCH (relatedWork)<-[:RELATED_TO]-(r:RelatedWork)
-            RETURN w.title AS work_title, a.name AS author_name, relatedWork.title AS related_work_title, collect(r.id) AS related_works
-        """, {"work_title": work_title})
-
-        return [dict(row) for row in result]
-    
-
-# Flask-Route definieren
+# Flask-Route for homepage
 @app.route('/')
 def index():
     return render_template('index.html')
 
-# Flask-Route definieren
+# flask-route for searching works
 @app.route('/works', methods=['POST'])
 def search_work():
     work_title = request.form['work_title']
     return redirect(f'/works/{work_title}')
 
-# Erstellen des NetworkX-Graphen
-def create_networkx_graph(data):
-    G = nx.Graph()
-    for row in data:
-        G.add_node(row['author_name'], node_type='author')
-        G.add_node(row['related_work_title'], node_type='related_work')
-        G.add_nodes_from(row['related_works'], node_type='related_work')
-        G.add_edge(row['author_name'], row['related_work_title'])
-        for related_work in row['related_works']:
-            G.add_edge(row['related_work_title'], related_work)
-    return G
-
-# Erstellen des Bokeh Plots
-def create_bokeh_plot(G):
-    plot = Plot(plot_width=800, plot_height=600, title='Knowledge Graph',
-                x_range=Range1d(-1.1, 1.1), y_range=Range1d(-1.1, 1.1))
-
-    graph_renderer = from_networkx(G, nx.spring_layout, scale=1, center=(0, 0))
-
-    graph_renderer.node_renderer.glyph = Circle(size=15, fill_color=Spectral4[0])
-    graph_renderer.node_renderer.selection_glyph = Circle(size=15, fill_color=Spectral4[2])
-    graph_renderer.node_renderer.hover_glyph = Circle(size=15, fill_color=Spectral4[1])
-
-    graph_renderer.edge_renderer.glyph = MultiLine(line_color="#CCCCCC", line_alpha=0.8, line_width=5)
-    graph_renderer.edge_renderer.selection_glyph = MultiLine(line_color=Spectral4[2], line_width=5)
-    graph_renderer.edge_renderer.hover_glyph = MultiLine(line_color=Spectral4[1], line_width=5)
-
-    graph_renderer.selection_policy = NodesAndLinkedEdges()
-    graph_renderer.inspection_policy = NodesAndLinkedEdges()
-
-    plot.renderers.append(graph_renderer)
-
-    hover = HoverTool(tooltips=[
-        ("Author", "@index"),
-        ("Related Work Title", "@related_work_title")
-    ])
-    plot.add_tools(hover)
-
-    script, div = components(plot)
-
-    return script, div
-
 @app.route('/works/<string:work_title>')
 def show_related_works(work_title):
     try:
+        # get data from neo4j
         data = get_data(work_title)
 
-        # Erstellen eines Graphen mit Hilfe von NetworkX
+        # create graph from graph.py
         G = create_networkx_graph(data)
 
-        # Erstellen des Bokeh-Plots
+        # create bokeh-plot from graph.py
         script, div = create_bokeh_plot(G)
 
         return render_template('table.html', data=data, script=script, div=div, target_id='knowledge-graph')
+    # error message wip
     except Exception as e:
         return render_template('error.html', error=str(e))
 

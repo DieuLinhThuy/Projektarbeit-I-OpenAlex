@@ -12,6 +12,9 @@
         <li>{{ result }}</li>
       {% endfor %}
     </ul>
+    {% else %}
+    <p>Keine Suchergebnisse gefunden.</p>
+    {% endif %}
     {{ div }}
   </body>
 </html>
